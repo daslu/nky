@@ -63,8 +63,8 @@ Now
 :::
 
 ::: {.lead}
-Eleven stops, ten sources, and they are not equally good. Flattening that would undo most of
-the point.
+Every stop on this page rests on a source, and the sources are not equally good.
+Flattening that would undo most of the point.
 :::
 
 ::: {.src}

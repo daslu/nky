@@ -16,8 +16,8 @@ The end of it
 :::
 
 ::: {.lead}
-Nine things we came away with. Not instructions — a record of what the reading suggested,
-in the order the page found them.
+What we came away with. Not instructions — a record of what the reading suggested, in the
+order the page found them.
 :::
 
 ::: {.src}
@@ -75,7 +75,8 @@ The whole list
 :::
 
 ::: {.lead}
-Ten sources. Where a link is free to read, it is free to read.
+Every source the journey cites. Where a paper can be read without paying for it, the link
+goes to the free version.
 :::
 
 ::: {.src}

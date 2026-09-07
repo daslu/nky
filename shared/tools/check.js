@@ -152,8 +152,18 @@ for (const story of stories) {
     ].forEach(([re, what]) => {
       if (!re.test(s.block)) fail(`stop "${s.stop}" (${s.file}) is missing ${what}`);
     });
-    if (!/:::+ \{\.hands\}/.test(s.block))
-      note(`stop "${s.stop}" has no "for your hands" takeaway`);
+    /* The takeaway is what the whole site is for, so a stop without one is a
+       failure rather than a note. The single exception is the closing
+       reference list, which has no finding and therefore nothing to translate
+       into what changes in the room.
+
+       This was a note until 2026-09-07, and all three stories tripped it on
+       every run — three lines of known noise above the real output. That is
+       the "a checker rule that fired on correct prose" error class in
+       dev-notes/HANDOFF.md §5, in its quieter form: a warning that is always
+       present is a warning nobody reads. */
+    if (s.stop !== "sources" && !/:::+ \{\.hands\}/.test(s.block))
+      fail(`stop "${s.stop}" (${s.file}) has no "for your hands" takeaway`);
 
     /* the research block must sit above the figure — a reader should not meet
        a claim before they meet its source. This ordering was a real bug once. */

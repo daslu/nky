@@ -50,9 +50,9 @@ there was completely open.
 
 ::: {.hands}
 [For your hands]{.t}
-These fibres are called **CT afferents** — C for the slow, unmyelinated kind — the ones
-with no insulating sheath — and T for touch. That is the term you will meet everywhere
-else, and this is where it comes from.
+These fibres are called **CT afferents**. C is the slow kind with no insulating sheath, and
+T is for touch. That is the term you will meet everywhere else, and this is where it comes
+from.
 :::
 
 ## The man who could not feel touch, and felt it anyway {#patient .stop data-stop="patient"}

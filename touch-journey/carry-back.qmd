@@ -1,6 +1,6 @@
 ---
 title: "What we carry back into the room"
-description: "Ten things we came away with, further reading, and the complete reference list."
+description: "What the reading suggested, where to go next, and every source in one place."
 nocite: |
   @*
 ---
@@ -9,14 +9,26 @@ nocite: |
 Closing
 :::
 
-## What we would carry back into the room {#rules .stop}
+## What we would carry back into the room {#carry .stop data-stop="carry"}
 
 ::: {.year}
-In practice
+The end of it
 :::
 
 ::: {.lead}
-Ten things we came away with, loosely ordered by how much weight we would put on each.
+What we came away with, loosely ordered by how much weight we would put on each. Not
+instructions — a record of what the reading suggested.
+:::
+
+::: {.src}
+[The research]{.lbl}
+Everything cited on the previous pages, weighed as part three weighs it. Nothing new is
+introduced here.
+:::
+
+::: {.journey-figure data-scene="context"}
+The figure from part four, repeated because it is the thing to leave with. Everything
+physical about the touch stays where it is; only what it is taken to mean changes.
 :::
 
 ::: {.rules}
@@ -51,15 +63,38 @@ Ten things we came away with, loosely ordered by how much weight we would put on
   visit.
 :::
 
-## If you want to go further {#further .stop}
+::: {.hands}
+[For your hands]{.t}
+If someone leaves your room with one thing, we would want it to be the touch rather than
+the mechanism: slow, warm, unhurried, and from someone they agreed to be touched by.
+That is the part with the most behind it, and it is the part they will remember.
+:::
+
+## Every source, in the order the journey met them {#sources .stop data-stop="sources"}
 
 ::: {.year}
-Reading
+The whole list
 :::
 
 ::: {.lead}
-Four places to go next, in the order we would send someone.
+Every source the journey cites, and where we would send someone who wants to go further.
+Where a paper can be read without paying for it, the link goes to the free version.
 :::
+
+::: {.src}
+[The research]{.lbl}
+Everything cited above, and two entries that are not cited anywhere: Morrison (2010) and
+Suvilehto (2023) are in the list because they are worth reading, not because a claim on
+these pages rests on them.
+:::
+
+::: {.journey-figure data-scene="revisions"}
+Four corrections the field has made to its own published work, kept in view on the way
+out. A literature that revises itself in the open is the reason the rest of this list is
+worth anything.
+:::
+
+Where to go next, in the order we would send someone.
 
 ::: {.reading}
 [McGlone et al. (2014)](https://www.cell.com/neuron/fulltext/S0896-6273(14)00387-0){.n}
@@ -87,6 +122,7 @@ itself.
 :::
 
 ::: {.refnote}
-Every source the journey cites, in the order it cites them. Each page also carries its
-own references at the foot, numbered for that page.
+The list below is numbered in the order the journey met each source, so it reads as a
+record of the route rather than an alphabetical index. Each page also carries its own
+references at the foot, numbered for that page.
 :::

@@ -103,7 +103,7 @@ to vibrating, you are not adjusting an intensity. You are moving between differe
 receptors with different jobs.
 :::
 
-## Your fingertips are twenty times sharper than your back {#acuity .stop data-stop="acuity"}
+## Your fingertips are fifteen times sharper than your back {#acuity .stop data-stop="acuity"}
 
 ::: {.year}
 How fine
@@ -111,7 +111,7 @@ How fine
 
 ::: {.lead}
 How close together can two points be before skin stops feeling them as two? The
-answer varies across the body by more than twenty-fold — and the conclusion people
+answer varies across the body by more than fifteen-fold — and the conclusion people
 usually draw from that is wider than the measurement allows.
 :::
 

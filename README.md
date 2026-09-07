@@ -15,9 +15,9 @@ stories/
 ├── _quarto.yml       the site: what renders, the theme, one sidebar per story
 ├── index.html        the shelf — hand-written, copied verbatim
 ├── shared/           theme, figure kit and checkers — see shared/README.md
-├── touch-journey/    Touch is not one sense        12 stops
-├── pain-journey/     Pain is not a damage report   11 stops
-├── breath-journey/   Breathing is not a switch     10 stops
+├── touch-journey/    Touch is not one sense
+├── pain-journey/     Pain is not a damage report
+├── breath-journey/   Breathing is not a switch
 ├── docs/             OUTPUT ONLY — Quarto deletes what it does not own here
 └── dev-notes/        working notes — gitignored, local to a working copy
 ```
@@ -66,3 +66,7 @@ real error.
   introduced, linked, and glossed beside.
 - **The narrator is "we", and it observes rather than instructs.** These are a
   record of what two readers found, not a protocol.
+- **Counts are not stated in prose.** Not the number of stops, not the number
+  of sources, not the number of closing rules — "a series of short stops", not
+  "twelve". Every such count lived in five or six places at once and drifted
+  the moment a story grew. `check.js` still guards any number that does appear.

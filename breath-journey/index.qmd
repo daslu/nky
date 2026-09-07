@@ -1,11 +1,13 @@
 ---
 title: "Breathing is not a switch"
 description: "A reading journey for hands-on practitioners: what slow breathing actually does, why one rate works better than the others, and how much of the rest is hope."
+toc: false
 ---
 
-::: {.part}
-Start here
-:::
+:::: {.hero}
+[A reading journey for hands-on practitioners]{.eyebrow}
+
+# Breathing is not a switch
 
 ::: {.stand}
 Breathing is the one part of the autonomic nervous system you can take hold of directly.
@@ -17,8 +19,9 @@ real physiology and the workshop version, "slow down and breathe out for longer"
 into switching your nervous system between states, and the second one is not something
 anyone can currently support.
 :::
+::::
 
-This is a reading journey through what is established, in ten short stops and about half
+This is a reading journey through what is established, in a series of short stops and about half
 an hour. Every figure can be operated. Every claim names its source before you meet it,
 and says how much that source can carry.
 
@@ -27,8 +30,10 @@ rate at which the heart and the blood vessels and the breath fall into step, it 
 findable, and it is about **six breaths a minute**. Most of this page is that, and what it
 is not.
 
+:::: {.about}
+
 ::: {.ab}
-[Who it is for]{.lbl}
+[Who it is for]{.k}
 
 Massage therapists, bodyworkers, physiotherapists, nurses, yoga and movement teachers,
 somatic practitioners — anyone who has ever said *and now just breathe* to a person on a
@@ -39,19 +44,24 @@ say what it means in ordinary language beside it.
 :::
 
 ::: {.ab}
-[What is here]{.lbl}
+[What is here]{.k}
 
-**One · what breathing is doing.** What an ordinary rate looks like, why the lungs are not
-where the interesting part happens, and what goes wrong when you breathe more than the
-body asked for.
+**[One · what breathing is doing](what-it-does.qmd).** What an ordinary rate looks like,
+why the lungs are not where the interesting part happens, and what goes wrong when you
+breathe more than the body asked for.
 
-**Two · why slow works.** The heart is already following your breath. One rate makes that
-swing largest, for a reason that has a decent account behind it — and that rate is not the
-same for everybody.
+**[Two · why slow works](why-slow.qmd).** The heart is already following your breath. One
+rate makes that swing largest, for a reason that has a decent account behind it — and that
+rate is not the same for everybody.
 
-**Three · being honest about it.** What breathwork does in randomised trials, which is
-real and modest, and how much weight each thing here can carry.
+**[Three · being honest about it](being-honest.qmd).** What breathwork does in randomised
+trials, which is real and modest, and how much weight each thing here can carry.
+
+**[What we carry back](carry-back.qmd).** What we came away with, and every source in the
+order the journey met them.
 :::
+
+::::
 
 Nothing here is medical advice. Anyone with a heart or lung condition, or who is pregnant,
 should take breathing exercises up with a clinician rather than with a web page.

@@ -86,10 +86,10 @@ rather than measured, and how sharp yours is will not be quite this.
 
 Here is the part that makes it a **resonance** rather than just a good rate. Your blood
 pressure is being corrected continuously by the baroreflex, and that correction takes a few
-seconds to take effect. Breathe at around six a minute and your breathing-driven changes
-arrive exactly out of step with the correction — heart rate and blood pressure end up running
-**half a cycle apart**, so blood pressure starts falling just as heart rate starts rising.
-Each push lands where it adds to the last one.
+seconds to arrive. Breathe at around six a minute and each breath's push lands just as the
+correction from the last one comes through — heart rate and blood pressure end up running
+**half a cycle apart**, blood pressure falling as heart rate rises. The timing is what does
+it: every push adds to the swing already there instead of fighting it.
 
 It is the same reason a child on a swing goes higher when the pushes are timed to the swing
 rather than delivered faster. The system has a natural period, and matching it costs nothing

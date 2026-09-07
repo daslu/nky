@@ -52,6 +52,66 @@ advertising another's stops. Finally add an `<li>` to the shelf in `index.html`.
 `check.js` finds the story on its own — a directory with `.qmd` files and a
 `refs.bib` is a story. No configuration to update.
 
+### The opening page
+
+All three stories open the same way, and a fourth should. The shape settled on
+2026-09-07, after two of them had quietly drifted into a second one:
+
+```markdown
+:::: {.hero}
+[A reading journey for hands-on practitioners]{.eyebrow}
+
+# The story's title
+
+::: {.stand}
+The standfirst, one or two paragraphs — the claim the story exists to make.
+:::
+::::
+
+How long it is and how it is sourced. One paragraph.
+
+One more thing worth knowing before starting. One paragraph.
+
+:::: {.about}
+
+::: {.ab}
+[Who it is for]{.k}
+The audience, and that no science background is assumed.
+:::
+
+::: {.ab}
+[What is here]{.k}
+**[One · the first part](first.qmd).** What it covers.
+… one row per page, the closing page included, every one of them linked.
+:::
+
+::::
+
+The disclaimer. One paragraph.
+
+::: {.hands}
+[Before you start]{.t}
+If you take one thing from this: **the story in one sentence.**
+:::
+```
+
+Four things about it are load-bearing:
+
+- **`toc: false` in the front matter.** The opening page has no stops, so its
+  only heading is the title, and a one-item table of contents beside it reads
+  as a mistake.
+- **The page writes its own `# heading`.** `#title-block-header` is hidden
+  site-wide, because the opening page carries its title in the body. A page
+  that does not write one therefore has no visible title at all — which is
+  what happened to two stories, for as long as they existed, with both
+  checkers green throughout.
+- **The eyebrow names the audience, not the page.** It read "Start here" on
+  two stories, which duplicated the sidebar entry beside it and borrowed
+  `.part`, the component that elsewhere means *you are in part two*.
+- **The rows under "What is here" are links.** Without them the only way into
+  the middle of a journey is the sidebar, and on a phone the sidebar is behind
+  a menu button.
+
 ---
 
 ## The figure kit
@@ -138,7 +198,9 @@ node shared/tools/layout-check.js pain-journey 390 1400 --page how-loose
 ```
 
 **check.js** reads source. Every citation resolves to a `refs.bib` entry; every
-stop has its year, lead, source block and figure; the source block sits *above*
+stop has its year, lead, source block, figure and "for your hands" takeaway —
+the closing reference list excepted, since it has no finding to translate; the
+source block sits *above*
 the figure, because a reader should not meet a claim before they meet its
 source; every figure names a scene that is registered; stated counts match
 reality; a `WEIGHTS` or `CLAIMS` array is still in descending order and its
@@ -161,9 +223,10 @@ layout, and ±2 was exactly wide enough to hide it.
 **What layout-check cannot catch, and you have to look for yourself: an opaque
 shape drawn over a label.** The overlap test compares `<text>` with `<text>`; a
 `<path>` or a `<foreignObject>` covering one is invisible to it. That has now
-happened three times in this repository — a doorway painting over a condition
-label, a note block landing on two markers, and a curve drawn through its own
-axis label. **After moving anything in a scene, screenshot it.**
+happened four times in this repository — a doorway painting over a condition
+label, a note block landing on two markers, a curve drawn through its own axis
+label, and a dashed guide line running through a heading. **After moving
+anything in a scene, screenshot it.**
 
 A related habit worth keeping: derive a canvas height from where the content
 actually ends rather than typing a number. Every height bug so far has been a
@@ -244,7 +307,7 @@ people out.
 
 And the step neither tool can do: **screenshot the figure you changed.** The
 layout checker compares `<text>` with `<text>`, so an opaque shape drawn over a
-label is invisible to it. Three such bugs have shipped past a green checker in
+label is invisible to it. Four such bugs have shipped past a green checker in
 this repository.
 
 ```bash

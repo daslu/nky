@@ -38,7 +38,9 @@ incomplete one.
 :::
 
 Stress came out at a standardised effect of **−0.35**, somewhere between −0.55 and −0.14.
-Anxiety −0.32 and low mood −0.40, both clearly better than the control conditions.
+Anxiety came out at −0.32 and low mood at −0.40, both better than the control conditions —
+though the abstract publishes no interval for either, which is why the figure draws them as
+bare points.
 
 In plain terms: this works, and it works about as well as a decent self-help intervention
 works. It is not nothing and it is not transformative. If somebody leaves your room breathing
@@ -64,8 +66,8 @@ Now
 :::
 
 ::: {.lead}
-Ten stops, six sources, and they are not equally good. Flattening that would undo most of
-the point of writing it down.
+Every stop on this page rests on a source, and the sources are not equally good.
+Flattening that would undo most of the point of writing it down.
 :::
 
 ::: {.src}

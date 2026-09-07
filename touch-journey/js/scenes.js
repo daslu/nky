@@ -691,7 +691,7 @@ function sceneAcuity(st){
       stroke="var(${on?"--clay":"--rule"})" stroke-width="${on?4:3}" stroke-linecap="round"/>`;
     s+=`<text class="xs" x="${BX-8}" y="${yy+4}" text-anchor="end" style="fill:var(${on?"--ink":"--ink3"})">${esc(q.n)}</text>`;
   });
-  const note="a fingertip is about twenty times finer than a back";
+  const note="a fingertip is about fifteen times finer than a back";
   if(NARROW) s+=`<text class="xs" x="${L}" y="${H-10}">${note}</text>`;
   else s+=`<text class="xs" x="${W-R}" y="${RY+PARTS.length*GAP-4}" text-anchor="end">${note}</text>`;
   return s+"</svg>";

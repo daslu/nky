@@ -1,11 +1,13 @@
 ---
 title: "Pain is not a damage report"
 description: "A reading journey for hands-on practitioners: what pain actually is, how loosely it tracks the tissue, and what that changes in the room."
+toc: false
 ---
 
-::: {.part}
-Start here
-:::
+:::: {.hero}
+[A reading journey for hands-on practitioners]{.eyebrow}
+
+# Pain is not a damage report
 
 ::: {.stand}
 Almost everyone who comes to you is in pain, and almost everyone arrives with the same
@@ -16,8 +18,9 @@ That model is wrong in a specific and useful way. Not wrong as in *the pain is i
 — it is as real as anything gets. Wrong as in *the dial is not connected to the thing
 you think it is connected to*.
 :::
+::::
 
-This is a reading journey through what is established about that, in eleven short stops and
+This is a reading journey through what is established about that, in a series of short stops and
 about half an hour. Every figure can be operated. Every claim names its source before you
 meet it, and says how much that source can carry.
 
@@ -25,8 +28,10 @@ We wrote it for people who work with bodies and hands — massage therapists, bo
 physiotherapists, nurses, movement and somatic practitioners — and for one situation in
 particular: the client who has been told their scan looks terrible, and believes it.
 
+:::: {.about}
+
 ::: {.ab}
-[Who it is for]{.lbl}
+[Who it is for]{.k}
 
 You do not need a science background. Where a technical word is genuinely the right one
 we introduce it, link it, and say what it means in ordinary language beside it.
@@ -39,20 +44,26 @@ about the claims on this page that cannot carry the weight people put on them.
 :::
 
 ::: {.ab}
-[What is here]{.lbl}
+[What is here]{.k}
 
-**One · what pain is.** How much of it there is, why an experience is not a reading, and
-what happens to a signal on its way in.
+**[One · what pain is](what-pain-is.qmd).** How much of it there is, why an experience is
+not a reading, and what happens to a signal on its way in.
 
-**Two · how loose the link is.** What a scan of a pain-free back actually looks like, and
-what a coloured light does to a fixed physical stimulus.
+**[Two · how loose the link is](how-loose.qmd).** What a scan of a pain-free back actually
+looks like, and what a coloured light does to a fixed physical stimulus.
 
-**Three · when pain stays.** How a nervous system turns its own gain up, and how much of
-a treatment is the room rather than the technique.
+**[Three · when pain stays](when-it-stays.qmd).** How a nervous system turns its own gain
+up, and how much of a treatment is the room rather than the technique.
 
-**Four · being honest about it.** What teaching people about pain measurably does, which
-is less than the field would like, and how much weight each thing on this page can bear.
+**[Four · being honest about it](being-honest.qmd).** What teaching people about pain
+measurably does, which is less than the field would like, and how much weight each thing
+on this page can bear.
+
+**[What we carry back](carry-back.qmd).** What we came away with, and every source in the
+order the journey met them.
 :::
+
+::::
 
 Nothing here is medical advice, and nothing here is a protocol. It is a record of what
 two readers found in the literature, written down in the order it made sense.

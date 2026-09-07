@@ -2,8 +2,13 @@
 
 A reading journey for hands-on practitioners.
 
-A Quarto website on what is known about touch. **Twelve stops across six pages**,
-about thirty minutes, twelve figures of which eleven are interactive.
+A Quarto website on what is known about touch. Six pages of stops, about thirty
+minutes, twelve figures of which eleven are interactive.
+
+Counts are not stated in the prose — not the number of stops, not the number of
+sources, not the number of closing rules. They drifted every time the story
+grew, in six places at once. `check.js` prints the current numbers, and that is
+where to read them.
 
 ```
 index.qmd             start here — what this is, who it is for, how it is sourced
@@ -11,7 +16,7 @@ territory.qmd         One · the territory      two roads · the organ · how fi
 second-system.qmd     Two · the second system  found · the proof · a speed · a warmth
 what-touch-does.qmd   Three · what touch does  pain · where · how sure
 being-honest.qmd      Four · being honest      corrections · meaning
-carry-back.qmd        what we carry back · further reading · every reference
+carry-back.qmd        Closing                  what we carry back · every source
 ```
 
 The opening page is written to be **self-contained**: someone arriving cold from
@@ -38,17 +43,18 @@ node shared/tools/check.js touch-journey      # content audit — run after ever
 node shared/tools/layout-check.js touch-journey   # layout audit — needs chrome/chromium
 ```
 
-`tools/check.js` has no dependencies and takes milliseconds. It verifies that
+`shared/tools/check.js` has no dependencies and takes milliseconds. It verifies that
 every `[@key]` resolves to an entry in `refs.bib`, that Wikipedia links are well
 formed and point at English Wikipedia, that every stop has the parts a stop needs
-**and carries its research block above its figure**, that every figure names a
-scene the figure layer defines, that stated counts ("twelve short stops") match
-the pages, that the evidence figure keeps its descending shape, and that
+**and carries its research block above its figure**, that every stop but the
+closing reference list ends in a "for your hands" takeaway, that every figure names a
+scene the figure layer defines, that any count still stated in prose matches the
+pages, that the evidence figure keeps its descending shape, and that
 phrasings which caused trouble before have not come back. It also fails on
 leftover `[ref:]` and `{{Page|text}}` markup from before the Quarto conversion.
 Exit code 1 on failure, so it drops into a pre-commit hook.
 
-It cannot see layout. That is `tools/layout-check.js`, which walks the **built**
+It cannot see layout. That is `shared/tools/layout-check.js`, which walks the **built**
 pages in headless Chrome at six widths from 320 to 1400px, clicks every control,
 and fails if anything leaves its viewBox or two labels overlap. It does not
 render — run `quarto render` first or it audits a stale build. Exit 1 on failure;
@@ -68,17 +74,19 @@ touch-journey/
   refs.bib            every source
   (ama.csl moved to ../shared too, and is set project-wide.)
   *.qmd               ALL prose, including figure captions
-  _figures.html       the three <script> tags, injected after the body
+  _figures.html       the four <script> tags, injected after the body
   js/figure-data.js   CLAIMS and REVISIONS — data the figures draw
   js/scenes.js        twelve illustrations. Not charts — rounded caps, soft fills
   js/figures.js       mounts the figures and wires their controls
-  tools/              check.js, layout-check.js
+
+(the two checkers live in ../shared/tools/ and serve every story — see
+ shared/README.md.)
 ```
 
 **The dividing line between markdown and JavaScript:** if it is inside a figure
 it stays in JS, if it is read as text it becomes markdown. So `CLAIMS` and
-`REVISIONS` are data files; the prose, the ten rules and the twelve figure
-captions are all `.qmd`.
+`REVISIONS` are data files; the prose, the closing rules and every figure
+caption are all `.qmd`.
 
 That last one matters. Captions used to live in `page.js`, outside everything
 `check.js` looked at, and the old README had to warn "grep both before an editing
@@ -89,7 +97,7 @@ pass". They are auditable now.
 Fixed, so it is learnable and every claim is held to the same standard:
 
 ```markdown
-## Your fingertips are twenty times sharper than your back {#acuity .stop data-stop="acuity"}
+## Your fingertips are fifteen times sharper than your back {#acuity .stop data-stop="acuity"}
 
 ::: {.year}
 How fine
@@ -172,7 +180,7 @@ answer to `layout()` in `scenes.js`; below 640px of box it draws narrow, and a
 `ResizeObserver` re-renders when the decision flips. `ST` is module-level, so
 every control the reader has already touched keeps its value across the redraw.
 
-**Adding a scene:** give it a `NARROW` branch, then run `tools/layout-check.js`.
+**Adding a scene:** give it a `NARROW` branch, then run `shared/tools/layout-check.js`.
 Without one it is drawn for an 860 canvas inside a 420 one and most of it lands
 off-screen.
 
@@ -209,9 +217,12 @@ instrument-style story keeps its own vocabulary under the same project.
 
 ## The figures
 
-Twelve, deliberately in different visual vocabularies so that no two stops feel
-like the same chart twice. **Eleven of the twelve are interactive**, and the rule
-for adding interaction is that it has to teach something the prose cannot.
+Twelve scenes, deliberately in different visual vocabularies so that no two stops
+feel like the same chart twice. **Eleven of the twelve are interactive**, and the
+rule for adding interaction is that it has to teach something the prose cannot.
+Two of them are drawn twice — `context` and `revisions` are repeated on the
+closing page as the thing to leave with, which is why the checker counts more
+figures than there are scenes.
 
 1. **Two roads** *(interactive)* — the fast road is drawn dead straight, the slow road wanders. Press **send a touch** and both signals travel **in real time**: the fast one crosses in 0.06 s, the slow one takes a full second. The one-second gap is the stop's whole claim, and it is the difference between reading it and feeling it.
 2. **Skin cross-section** *(interactive)* — five receptor types at their real depths, each drawn as its own shape. Tap to read what it does. The only anatomical figure.

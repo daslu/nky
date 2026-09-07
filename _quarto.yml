@@ -114,6 +114,16 @@ format:
     theme: [cosmo, shared/warm.scss]
     css: shared/warm.css
     csl: shared/ama.csl
+
+    # Kept out of search results while the site is being drafted (2026-09-07).
+    # robots.txt cannot do this here: it is read only from the origin root,
+    # daslu.github.io/robots.txt, which belongs to another repository. So the
+    # tag goes on the page. Remove this block when the site is ready to be
+    # found — and remove the matching tag from index.html, which is copied
+    # verbatim as a resource and so never sees this header.
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex">
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.
