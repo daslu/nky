@@ -4,3 +4,6 @@
 # this is the only place it is written.
 contact:
   email: hello@example.org
+# PLACEHOLDER: FG's own practice website.
+fg:
+  site: https://example.org

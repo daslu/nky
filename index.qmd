@@ -1,6 +1,6 @@
 ---
 title: "Notknowing Garden"
-description: "Spaces for wellness and movement, online and in person, made by a tantra therapist and a yoga teacher."
+description: "Spaces for wellness and movement, online and in person, made by a tantra practitioner and a yoga teacher."
 # Without this, the preview card would be the first image on the page —
 # the lockup SVG, which most link previewers cannot show.
 image: shared/img/share.jpg
@@ -20,7 +20,7 @@ people who are curious about their bodies and comfortable with not knowing yet.
 ::: {.band .band-front}
 :::
 
-Notknowing Garden is run by [FG](about/fg.qmd), a tantra therapist, and
+Notknowing Garden is run by [FG](about/fg.qmd), a tantra practitioner, and
 [DS](about/ds.qmd), a yoga teacher. We bring our two practices together in
 retreats, gatherings and conversations for wellness and movement communities.
 

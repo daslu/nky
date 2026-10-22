@@ -60,6 +60,12 @@ English.
 Venue, exact dates and price to follow.
 :::
 
+::: {.empty}
+This retreat is not therapy or medical treatment. If you have a physical or
+mental health condition, please tell us before booking, so we can talk it
+through together.
+:::
+
 ::: {.ask}
 **Questions are welcome.** About the programme, the place, cost, access, or
 whether this is right for you: write to us at

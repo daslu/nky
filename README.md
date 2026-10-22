@@ -1,6 +1,6 @@
 # Notknowing Garden
 
-The website of Notknowing Garden: a tantra therapist and a yoga teacher making
+The website of Notknowing Garden: a tantra practitioner and a yoga teacher making
 spaces, online and in person, for wellness and movement communities. The name
 is provisional.
 

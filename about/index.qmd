@@ -8,7 +8,7 @@ toc: false
 # About
 
 ::: {.stand}
-Notknowing Garden is the two of us, a tantra therapist and a yoga teacher, and
+Notknowing Garden is the two of us, a tantra practitioner and a yoga teacher, and
 what we make together.
 :::
 ::::
@@ -21,7 +21,7 @@ what we make together.
 ::: {.way}
 [FG]{.k}
 
-Tantra therapist and facilitator.
+Tantra practitioner and facilitator.
 
 [about FG →](fg.qmd)
 :::
@@ -46,7 +46,5 @@ hear from you.
 :::
 
 ::: {.hands}
-[Said once, plainly]{.t}
-Nothing on this site is medical advice, and nothing on it can tell you what the
-person in front of you wants.
+Nothing on this site is medical advice.
 :::
