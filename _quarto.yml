@@ -18,6 +18,11 @@ project:
   type: website
   output-dir: docs
   render:
+    - index.qmd
+    - writing/*.qmd
+    - podcast/*.qmd
+    - community/*.qmd
+    - about/*.qmd
     - touch-journey/*.qmd
     - pain-journey/*.qmd
     - breath-journey/*.qmd
@@ -27,19 +32,52 @@ project:
     # site. The stylesheets and the citation style reach docs/ through
     # Quarto's own theme handling and do not belong here.
     - shared/figure-kit.js
+    # The band photographs. warm.css reaches these with a url(), which
+    # Quarto's resource scan does not see — unlisted, they would never
+    # reach docs/, and anything already there would be deleted.
+    - shared/img/**
     - touch-journey/js/**
     - pain-journey/js/**
     - breath-journey/js/**
-    # The hand-written shelf. Without an index input Quarto writes a redirect
-    # stub to whichever page sorts first, which it did once. Copied verbatim
-    # until it becomes an index.qmd — see dev-notes/touch-journey/TODO.md.
-    - index.html
 
 website:
-  title: "Stories"
-  description: "Reading journeys through what is known, and not known, about how bodies work."
+  title: "not knowing, yet"
+  description: "An informal community project supporting learning and sharing among body-mind practitioners."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
+  # The comma, which the name cannot do without. Set in Fraunces, the
+  # site's own display face, so the tab matches the page.
+  favicon: shared/img/favicon.png
+
+  ## One navbar for the whole site. Quarto has no per-directory navbar — this
+  ## appears on the journeys too, which is now correct: they are part of this
+  ## site rather than a publication of their own.
+  ## No story sidebar may name the front door in its contents: Quarto picks
+  ## the sidebar whose contents contain the page being rendered, so listing
+  ## index.html there made the front door a member of all three and it
+  ## rendered wearing the touch stops. The way home is the brand below.
+  navbar:
+    title: "not knowing, yet"
+    left:
+      - text: "the podcast"
+        href: podcast/index.qmd
+      - text: "writing"
+        href: writing/index.qmd
+      - text: "community"
+        href: community/index.qmd
+      - text: "about"
+        href: about/index.qmd
+
+  ## Every page used to stop dead at the end of its last paragraph. This is
+  ## the close, and it is the one place the two of them are named on every
+  ## page rather than only on /about/.
+  page-footer:
+    left: "not knowing, yet"
+    right:
+      - text: "FG"
+        href: about/fg.qmd
+      - text: "DS"
+        href: about/ds.qmd
 
   ## Quarto picks the sidebar whose contents contain the page being rendered,
   ## so each story gets its own stops and no story advertises another's.
@@ -62,8 +100,6 @@ website:
           href: touch-journey/being-honest.qmd
         - text: "What we carry back"
           href: touch-journey/carry-back.qmd
-        - text: "← all stories"
-          href: index.html
 
     - id: pain
       title: "Pain is not a damage report"
@@ -83,8 +119,6 @@ website:
           href: pain-journey/being-honest.qmd
         - text: "What we carry back"
           href: pain-journey/carry-back.qmd
-        - text: "← all stories"
-          href: index.html
 
     - id: breath
       title: "Breathing is not a switch"
@@ -102,8 +136,6 @@ website:
           href: breath-journey/being-honest.qmd
         - text: "What we carry back"
           href: breath-journey/carry-back.qmd
-        - text: "← all stories"
-          href: index.html
 
 ## The warm vocabulary lives here, at project level, so every story inherits it
 ## and there is one copy of the stylesheet rather than one per story. A story's
@@ -115,15 +147,18 @@ format:
     css: shared/warm.css
     csl: shared/ama.csl
 
-    # Kept out of search results while the site is being drafted (2026-09-07).
-    # robots.txt cannot do this here: it is read only from the origin root,
-    # daslu.github.io/robots.txt, which belongs to another repository. So the
-    # tag goes on the page. Remove this block when the site is ready to be
-    # found — and remove the matching tag from index.html, which is copied
-    # verbatim as a resource and so never sees this header.
+    # Two things every page needs. The robots tag keeps the site out of search
+    # results while it is being drafted (2026-09-07) — robots.txt cannot do it
+    # here, being read only from the origin root, daslu.github.io/robots.txt,
+    # which belongs to another repository. Remove the tag when the site is
+    # ready to be found. The fonts sat in each story's _metadata.yml until
+    # there were pages outside the stories; one copy now.
     include-in-header:
       - text: |
           <meta name="robots" content="noindex">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.

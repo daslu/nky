@@ -1,0 +1,13 @@
+---
+title: "FG"
+description: "One of the two people who run not knowing, yet."
+toc: false
+---
+
+:::: {.hero}
+# FG
+
+::: {.stand}
+FG is a tantra therapist.
+:::
+::::

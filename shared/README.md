@@ -47,7 +47,11 @@ Then in `_quarto.yml`: add `new-journey/*.qmd` to `render`, add
 `new-journey/js/**` to `resources`, and add a sidebar with an `id` listing that
 story's pages. Quarto picks the sidebar whose `contents` contain the page being
 rendered, which is how three stories share a site without any of them
-advertising another's stops. Finally add an `<li>` to the shelf in `index.html`.
+advertising another's stops. **A story sidebar must not name the front door in
+its `contents`** — that makes the front door a member of the sidebar, and it
+renders wearing that story's stops. The navbar is the way home.
+
+Finally add an entry to the journeys list on `writing/index.qmd`.
 
 `check.js` finds the story on its own — a directory with `.qmd` files and a
 `refs.bib` is a story. No configuration to update.
@@ -255,12 +259,66 @@ title is a quoted record and is never reworded.
 
 ---
 
+## The photographs
+
+`shared/img/` holds the site's only images, cropped and graded from a set of
+photographs taken on one walk in a eucalyptus grove, 8 October 2026. Five are
+band images, one per section page; the rest are the favicon and the share card.
+
+**The rule that keeps them from competing with the figures.** A figure is an
+object *on* the page — card, border, radius, shadow — and everything in one
+makes a claim the prose has to back. A photograph is the page *itself*: it
+rises out of the paper and sinks back into it, with no frame of any kind. So a
+band has no border, no radius and no shadow, and **no band ever appears inside
+a journey**. On a journey page every visual element carries evidence, and a
+decorative one would be the only thing there that does not.
+
+**Where a band goes: between the standfirst and the body, never at the foot.**
+They were built as closing bands first, and that was wrong — on the front door
+the band began 1274px down a page with about 713px of window above it, so most
+readers never saw it at all. Moved up, it starts at 461–564px on every section
+page and is the second thing seen. The page is still closed by the footer.
+
+Two spacing traps came with that move. The band's own top and bottom thirds are
+transparent, which supplies most of its breathing room, so it needs far less
+margin than it looks — but not none: a negative bottom margin left over from
+the closing-band layout dropped the next paragraph straight onto the faded
+leaves, on three pages at once.
+
+**What makes a usable band.** A wide shallow crop needs a large quiet area —
+bokeh, sky, or a smooth trunk. Flat all-over texture fails at any zoom: three
+litter crops were tried on `/writing/` and `/about/` and all three read as
+static against the type. The images that work have a near and a far.
+
+**How they are made.** Crop a 3.2:1 strip, grade the family together
+(`-modulate 100,78,100 +level 12%,97% -brightness-contrast -3x-14`, plus about
+10% gold colorize on anything that runs cool against cream paper), resize to
+1600 wide, then composite a blurred copy through a vertical gradient so only a
+horizontal strip stays sharp. That last step is an artificial depth of field,
+and it is what makes a texture legible at band height.
+
+**The fade is a CSS mask, not baked into the JPEG.** A gradient to a flat
+colour is exactly where JPEG banding shows worst, and a mask lets one asset
+serve more than one band height.
+
+**Two traps.** `warm.css` reaches these with a `url()`, and **Quarto's resource
+scan does not see inside CSS** — so `shared/img/**` is listed in
+`project.resources`, without which the files never reach `docs/` and anything
+already there is deleted. And the bands bleed to `100vw`, which includes the
+scrollbar: `html{overflow-x:clip}` absorbs that. It must be `clip` and not
+`hidden`, because `hidden` would make `html` a scroll container and break both
+the sticky page TOC and the smooth scrolling set at the top of the stylesheet.
+
+**The source photographs are not originals.** No EXIF, quality 72, 4:2:0
+subsampling, every file capped at 1280 on the long edge — a messaging-app
+re-encode. They are soft at full-bleed on a high-density screen. Re-cut the
+bands from camera originals if they can be found.
+
 ## docs/ is output only
 
 `docs/` is what GitHub Pages serves and it is Quarto's `output-dir`. Quarto
 **deletes anything in there that the project does not know about** — it removed
-a published story once and replaced the hand-written shelf with a redirect
-stub. Anything that has to exist there must be a project input: rendered from a
+a published story once and replaced the front door with a redirect stub. Anything that has to exist there must be a project input: rendered from a
 `.qmd`, or listed under `resources`. Never hand-edit `docs/`.
 
 ---
@@ -270,7 +328,7 @@ stub. Anything that has to exist there must be a project input: rendered from a
 Everything runs from the **repository root**.
 
 ```bash
-# 1. build the whole site — all three stories plus the shelf
+# 1. build the whole site — every section plus all three stories
 quarto render
 
 # 2. content audit — every story, no browser, milliseconds

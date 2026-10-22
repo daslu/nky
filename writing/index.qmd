@@ -1,0 +1,45 @@
+---
+title: "Writing"
+description: "Learnings, experiences, thoughts, and reading journeys."
+toc: false
+---
+
+:::: {.hero}
+# Writing
+
+::: {.stand}
+A space where we share our learnings, experiences, thoughts, and reading
+journeys.
+:::
+::::
+
+::: {.band .band-writing}
+:::
+
+::: {.shelf}
+
+::: {.item}
+### [Touch is not one sense](../touch-journey/index.qmd)
+
+Skin carries at least two separate systems, and they are not sending the same
+message. One tells you *what* you are touching. The other answers mainly to being
+touched *affectionately* — and it fires hardest at one particular speed.
+:::
+
+::: {.item}
+### [Pain is not a damage report](../pain-journey/index.qmd)
+
+How much something hurts is not a reading of how damaged it is. At sixty, *88%* of
+people with no back pain at all have disc degeneration on a scan — and a −20 °C rod
+feels hotter under a red light than a blue one.
+:::
+
+::: {.item}
+### [Breathing is not a switch](../breath-journey/index.qmd)
+
+There really is a rate at which the heart, the blood vessels and the breath fall
+into step, and it is about *six breaths a minute*. Most of the rest of what gets
+claimed for the breath is hope — including the part about getting more oxygen in.
+:::
+
+:::

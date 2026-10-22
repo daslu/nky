@@ -250,3 +250,124 @@ div.csl-entry:target{ background:var(--paper2); border-radius:8px }
 .journey-figure .big{ font-family:"Fraunces",serif; font-size:38px; font-weight:600; fill:var(--ink) }
 
 html{ scroll-behavior:smooth }
+
+/* ══ the site around the journeys ══════════════════════════════════
+   Added 2026-09-07, when the three stories became sections of a larger
+   site rather than the whole of it. Everything below styles the front
+   door and the four section pages; nothing here reaches a story page.
+
+   Pandoc wraps a lone span in a <p>, so every rule that places a key
+   places the PARAGRAPH and only types the span — the same trap that
+   `.ab .k` documents above. */
+
+/* ── the front door ──────────────────────────────────────────── */
+/* The project name is lowercase and the comma is load-bearing, so it is
+   set larger and tighter than a story title and never capitalised by CSS. */
+.hero.front h1{ font-size:clamp(40px,7vw,68px); text-transform:none;
+  margin-bottom:22px }
+.hero.front .stand{ font-size:22.5px; color:var(--ink2) }
+
+/* ── three ways in ───────────────────────────────────────────── */
+.ways{ max-width:38rem; margin:38px 0 8px; padding-top:22px;
+  border-top:1px solid var(--rule) }
+.ways > p:first-child{ margin-bottom:18px }      /* the eyebrow's paragraph */
+.way{ padding:20px 0; border-bottom:1px solid var(--rule) }
+.way:last-child{ border-bottom:none }
+.way > p:first-child{ margin-bottom:7px }
+.way .k{ font-family:"Fraunces",serif; font-size:19px; color:var(--ink);
+  letter-spacing:-.01em }
+.way p{ font-size:17.5px; line-height:1.58; color:var(--ink2); margin:0 0 .55em }
+.way p:last-child{ margin-bottom:0 }
+.way a{ font-family:"Fraunces",serif; font-size:15.5px }
+
+/* ── the writing list ─────────────────────────────────────────
+   One list, one kind of post. This carried a journeys/notes split until
+   2026-09-13, with the note styled deliberately unlike the journey; the
+   distinction was dropped and the posts are simply posts. */
+.shelf{ max-width:38rem; margin:38px 0 0; padding-top:8px }
+.item{ padding:22px 0; border-top:1px solid var(--rule) }
+.item h3{ font-size:clamp(22px,2.8vw,27px); margin:0 0 10px; max-width:24ch }
+.item h3 a{ color:var(--clay); text-decoration:underline;
+  text-decoration-thickness:1px; text-underline-offset:4px }
+.item p{ font-size:17.5px; line-height:1.58; color:var(--ink2);
+  margin:0 0 .6em; max-width:33rem }
+.item p:last-child{ margin-bottom:0 }
+
+/* ── nothing here yet ──────────────────────────────────────────
+   A quiet line, not a box. The dashed card around it read as scaffolding
+   and drew more attention than the absence it was reporting. */
+.empty{ display:block; max-width:34rem; margin:22px 0 0;
+  font-size:16.5px; line-height:1.55; color:var(--ink3) }
+
+/* ── the navbar, warmed ──────────────────────────────────────── */
+.navbar{ border-bottom:1px solid var(--rule); background:var(--paper)!important }
+.navbar .navbar-nav .nav-link{ font-family:"Fraunces",serif; font-size:15px;
+  color:var(--ink2)!important; letter-spacing:.01em }
+.navbar .navbar-nav .nav-link:hover{ color:var(--ink)!important }
+.navbar .navbar-nav .nav-link.active{ color:var(--clay)!important }
+
+/* ── photographs ──────────────────────────────────────────────────
+   Added 2026-10-10, the first images the site has carried.
+
+   A figure is an object ON the page — card, border, radius, shadow —
+   and everything in one makes a claim the prose has to back. A
+   photograph is the page itself: it rises out of the paper and sinks
+   back into it, carrying no frame at all. The two must not be mistaken
+   for one another, which is why a band has no border, no radius and no
+   shadow, and why NO BAND EVER APPEARS INSIDE A JOURNEY — there, every
+   visual element carries evidence, and a decorative one would be the
+   only thing on the page that does not.
+
+   Full bleed by the viewport arithmetic the mobile figure rule already
+   uses. `overflow-x: clip` rather than `hidden`: 100vw includes the
+   scrollbar and would otherwise overflow by its width, and `hidden`
+   would make html a scroll container, breaking the sticky page TOC and
+   the smooth scrolling set at the top of this file. `clip` does not.
+
+   The fade is a mask, not baked into the JPEG: a gradient to a flat
+   colour is where JPEG banding shows worst, and a mask also lets one
+   asset serve more than one band height. */
+html{ overflow-x:clip }
+
+.band{
+  margin:52px 0 0;
+  margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
+  height:clamp(170px,22vw,270px);
+  background-size:cover; background-position:center center;
+  background-repeat:no-repeat;
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 32%,#000 68%,transparent);
+          mask-image:linear-gradient(180deg,transparent,#000 32%,#000 68%,transparent);
+  /* The band sits between the standfirst and the body, not at the foot of the
+     page: at the foot it was around 1270px down on the front door, with only
+     ~713px of window above it, so most readers never reached it. Mid-page it
+     is the second thing seen. Its own top and bottom thirds are transparent,
+     which supplies most of the breathing room — but NOT all of it: a negative
+     bottom margin here (left over from the closing-band layout) dropped the
+     next paragraph straight onto the faded leaves. */
+  margin-bottom:22px;
+}
+/* Paths resolve against this stylesheet, which Quarto publishes to
+   docs/shared/ — so img/ here is docs/shared/img/, carried there by the
+   resources list in _quarto.yml. A CSS url() is NOT discovered by
+   Quarto's resource scan, and anything it does not know about in docs/
+   is deleted on the next render. */
+.band-front    { background-image:url(img/front.jpg) }
+.band-writing  { background-image:url(img/writing.jpg) }
+.band-podcast  { background-image:url(img/podcast.jpg) }
+.band-community{ background-image:url(img/community.jpg) }
+.band-about    { background-image:url(img/about.jpg) }
+
+@media (max-width:700px){
+  .band{ margin-top:46px; height:clamp(132px,32vw,190px) }
+}
+
+/* ── the footer ───────────────────────────────────────────────────
+   Every page used to stop dead. The band fades out, this closes. */
+.nav-footer{
+  background:var(--paper2); border-top:1px solid var(--rule);
+  font-family:"Fraunces",serif; font-size:14px; color:var(--ink3);
+  padding-top:18px; padding-bottom:18px; margin-top:0;
+}
+.nav-footer a{ color:var(--ink2); text-decoration:none }
+.nav-footer a:hover{ color:var(--clay); text-decoration:underline }
+.nav-footer .nav-item{ padding-left:14px }

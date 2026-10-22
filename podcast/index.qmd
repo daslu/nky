@@ -1,0 +1,22 @@
+---
+title: "The podcast"
+description: "Conversations with people who practise something with their bodies and think about what they are doing."
+toc: false
+---
+
+:::: {.hero}
+# The podcast
+
+::: {.stand}
+Conversations with people who practise something with their bodies and think
+about what they are doing — spiritual, somatic, therapeutic, community, social,
+scientific. Two hosts, who do not always agree.
+:::
+::::
+
+::: {.band .band-podcast}
+:::
+
+::: {.empty}
+No episodes yet.
+:::

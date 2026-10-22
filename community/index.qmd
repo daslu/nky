@@ -1,0 +1,38 @@
+---
+title: "Community"
+description: "Study sessions, open calls, and a smaller space for practitioners."
+toc: false
+---
+
+:::: {.hero}
+# Community
+
+::: {.stand}
+Ways to learn and share with other people who do this work.
+:::
+::::
+
+::: {.band .band-community}
+:::
+
+::: {.ways}
+
+::: {.way}
+[Open events]{.k}
+
+Study sessions on a chosen text or topic, and online calls with a guest. Open to
+anyone, and some become podcast episodes.
+:::
+
+::: {.way}
+[A smaller circle]{.k}
+
+Something smaller and more private, for practitioners. Joined separately. How it
+works will be written down here before it starts.
+:::
+
+:::
+
+::: {.empty}
+Nothing is scheduled yet, and there is no form to fill in.
+:::

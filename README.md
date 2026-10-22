@@ -8,16 +8,21 @@ Each story is self-contained, sourced in the open, and built to be **operated**
 rather than only read. Every claim names its source before you meet it, and
 says how much that source can carry.
 
-Live at **[daslu.github.io/stories](https://daslu.github.io/stories)**.
+Live at **[daslu.github.io/nky](https://daslu.github.io/nky)**, and `noindex`
+while it is being drafted.
 
 ```
-stories/
-├── _quarto.yml       the site: what renders, the theme, one sidebar per story
-├── index.html        the shelf — hand-written, copied verbatim
+nky/
+├── _quarto.yml       the site: what renders, the theme, navbar, sidebars
+├── index.qmd         the front door
+├── writing/          both kinds of writing — journeys and notes
+├── podcast/          the show                     placeholder
+├── together/         community meetings           placeholder
+├── about/            the two of us                placeholder
 ├── shared/           theme, figure kit and checkers — see shared/README.md
-├── touch-journey/    Touch is not one sense
-├── pain-journey/     Pain is not a damage report
-├── breath-journey/   Breathing is not a switch
+├── touch-journey/    Touch is not one sense       ┐ not yet moved under
+├── pain-journey/     Pain is not a damage report  │ writing/journeys/ —
+├── breath-journey/   Breathing is not a switch    ┘ see dev-notes/HANDOFF.md
 ├── docs/             OUTPUT ONLY — Quarto deletes what it does not own here
 └── dev-notes/        working notes — gitignored, local to a working copy
 ```

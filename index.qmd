@@ -1,0 +1,56 @@
+---
+title: "not knowing, yet"
+description: "An informal community project supporting learning and sharing among body-mind practitioners."
+toc: false
+---
+
+:::: {.hero .front}
+
+# not knowing, yet
+
+::: {.stand}
+How to be in a body. How to be with others. How to make something together.
+No answers yet — just people working at the edge of what they know.
+:::
+::::
+
+::: {.band .band-front}
+:::
+
+NKY is a community project to support body-mind practitioners and therapists in
+sharing and learning together.
+
+It is run by [FG](about/fg.qmd) and [DS](about/ds.qmd).
+
+::: {.ways}
+[Three ways in]{.eyebrow}
+
+::: {.way}
+[The podcast]{.k}
+
+Conversations with people who practise something with their bodies and think
+about what they are doing — spiritual, somatic, therapeutic, community,
+scientific. Two hosts, who do not always agree.
+
+[the show →](podcast/index.qmd)
+:::
+
+::: {.way}
+[The writing]{.k}
+
+Learnings, experiences, thoughts, and long-form reading journeys through what is
+known and not known about how bodies work.
+
+[what we have written →](writing/index.qmd)
+:::
+
+::: {.way}
+[Community]{.k}
+
+Study sessions on a chosen text, and open online calls with a guest that anyone
+can join and listen in on. Later, perhaps, a smaller and more private space for
+practitioners.
+
+[what happens, and how to join →](community/index.qmd)
+:::
+:::

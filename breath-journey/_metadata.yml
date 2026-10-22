@@ -6,9 +6,8 @@ link-citations: true
 
 format:
   html:
-    include-in-header:
-      - text: |
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    # The fonts moved to _quarto.yml when pages appeared outside the stories.
+    # Quarto MERGES include-in-header across project and directory level rather
+    # than replacing it, so keeping a copy here loaded the stylesheet twice —
+    # verified in the rendered HTML, not assumed.
     include-after-body: _figures.html

@@ -1,0 +1,43 @@
+---
+title: "About"
+description: "Who we are, what this is, and what it is not."
+toc: false
+---
+
+:::: {.hero}
+# About
+
+::: {.stand}
+Two of us run this, in whatever time we have.
+:::
+::::
+
+::: {.band .band-about}
+:::
+
+::: {.ways}
+
+::: {.way}
+[FG]{.k}
+
+Tantra therapist.
+
+[about FG →](fg.qmd)
+:::
+
+::: {.way}
+[DS]{.k}
+
+Yoga teacher.
+
+[about DS →](ds.qmd)
+:::
+
+:::
+
+::: {.hands}
+[Said once, plainly]{.t}
+We are not offering therapy, diagnosis or treatment. Nothing on this site is
+medical advice, and nothing on it can tell you what the person in front of you
+wants.
+:::
