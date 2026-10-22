@@ -1,6 +1,6 @@
 ---
 title: "Notknowing Garden"
-description: "Spaces to move, connect and learn, online and in person, created by a tantra practitioner and a yoga teacher."
+description: "Spaces to move, breathe, connect and learn together, online and in person, bringing yoga and tantra into one practice."
 # Without this, the preview card would be the first image on the page —
 # the lockup SVG, which most link previewers cannot show.
 image: shared/img/share.jpg
@@ -12,17 +12,18 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-We create spaces, online and in person, to move, breathe, connect and learn
-together. For practitioners, and for anyone curious about their body.
+We create spaces, online and in person, where people can move, breathe,
+connect and learn together. They are for practitioners, and for anyone who is
+curious about their body.
 :::
 ::::
 
 ::: {.band .band-front}
 :::
 
-Notknowing Garden is [FG](about/fg.qmd), a tantra practitioner and facilitator,
-and [DS](about/ds.qmd), a yoga teacher and community activist. We create
-these spaces together, bringing yoga and tantra into one practice.
+Notknowing Garden is run by [FG](about/fg.qmd) and [DS](about/ds.qmd). We
+create these spaces together, and in them we bring yoga and tantra into one
+practice.
 
 ::: {.ways}
 [What you will find here]{.eyebrow}
@@ -30,8 +31,8 @@ these spaces together, bringing yoga and tantra into one practice.
 ::: {.way}
 [Gatherings]{.k}
 
-Spaces to practise and learn together, online and in person. Coming up first,
-two retreats in 2027: [Practitioner
+These are spaces to practise and learn together, online and in person. The
+first ones coming up are two retreats in 2027: [Practitioner
 Exchange](community/practitioner-exchange.qmd), for practitioners who want to
 lead groups, and [Moving Together](community/moving-together.qmd), a movement
 retreat for anyone.
@@ -42,8 +43,8 @@ retreat for anyone.
 ::: {.way}
 [Writing]{.k}
 
-Long reading guides to the research on touch, pain and breathing: what is
-known, what is not, and what it means in practice.
+We write long reading guides to the research on touch, pain and breathing.
+Each one looks at what is known, what is not, and what it means in practice.
 
 [read the writing →](writing/index.qmd)
 :::
@@ -51,8 +52,8 @@ known, what is not, and what it means in practice.
 ::: {.way}
 [The podcast]{.k}
 
-Conversations with people who work with the body, hosted by the two of us. No
-episodes yet.
+The podcast will be a series of conversations with people who work with the
+body, hosted by the two of us. There are no episodes yet.
 
 [about the podcast →](podcast/index.qmd)
 :::

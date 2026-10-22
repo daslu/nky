@@ -51,7 +51,7 @@ website:
   image: /shared/img/share.jpg
   open-graph: true
   twitter-card: true
-  description: "Spaces to move, connect and learn, online and in person, created by a tantra practitioner and a yoga teacher."
+  description: "Spaces to move, breathe, connect and learn together, online and in person, bringing yoga and tantra into one practice."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
   # The comma from the old name, "not knowing, yet", set in Fraunces. Kept

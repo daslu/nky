@@ -8,8 +8,8 @@ toc: false
 # Writing
 
 ::: {.stand}
-Long reading guides to the research on touch, pain and breathing: what is
-known, what is not, and what it means in practice.
+These are long reading guides to the research on touch, pain and breathing.
+Each one looks at what is known, what is not, and what it means in practice.
 :::
 ::::
 

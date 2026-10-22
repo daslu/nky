@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Notknowing Garden is two practitioners, FG and DS, creating spaces together, online and in person, that combine tantra and yoga."
+description: "Notknowing Garden is run by FG and DS, who create spaces together, online and in person, that combine tantra and yoga."
 toc: false
 ---
 
@@ -8,36 +8,13 @@ toc: false
 # About
 
 ::: {.stand}
-Notknowing Garden is a collaboration between two practitioners, FG and DS. We
-create spaces together, online and in person, that combine tantra and yoga, and
+Notknowing Garden is run by two practitioners, [FG](fg.qmd) and [DS](ds.qmd).
+We create spaces together, online and in person, that combine tantra and yoga, and
 we write about what the research says about the body.
 :::
 ::::
 
 ::: {.band .band-about}
-:::
-
-## Who we are
-
-::: {.ways}
-
-::: {.way}
-[FG]{.k}
-
-Tantra practitioner and facilitator, trained in tantra therapy. Offers
-one-to-one sessions and facilitates groups.
-
-[about FG →](fg.qmd)
-:::
-
-::: {.way}
-[DS]{.k}
-
-Yoga teacher and community activist.
-
-[about DS →](ds.qmd)
-:::
-
 :::
 
 ## What we do
@@ -47,9 +24,9 @@ Yoga teacher and community activist.
 ::: {.way}
 [Gatherings]{.k}
 
-Spaces to practise and learn together, online and in person. Coming up first,
-two retreats in 2027: one for practitioners who want to lead groups, and one
-movement retreat for anyone.
+We create spaces to practise and learn together, online and in person. The
+first ones coming up are two retreats in 2027: one for practitioners who want
+to lead groups, and one movement retreat for anyone.
 
 [see what is coming up →](../community/index.qmd)
 :::
@@ -57,7 +34,7 @@ movement retreat for anyone.
 ::: {.way}
 [Writing]{.k}
 
-Long reading guides to the research on touch, pain and breathing.
+We write long reading guides to the research on touch, pain and breathing.
 
 [read the writing →](../writing/index.qmd)
 :::
@@ -65,7 +42,8 @@ Long reading guides to the research on touch, pain and breathing.
 ::: {.way}
 [A podcast]{.k}
 
-Conversations with people who work with the body. No episodes yet.
+The podcast will be a series of conversations with people who work with the
+body. There are no episodes yet.
 
 [about the podcast →](../podcast/index.qmd)
 :::
@@ -81,8 +59,8 @@ page. Notknowing Garden is a place to grow from there.
 ## Write to us {#write-to-us}
 
 ::: {.ask}
-Questions, ideas, or just hello: about the retreats, the writing, access, cost,
-or anything else. Write to us at
+We welcome questions, ideas, or just a hello, about the gatherings, the
+writing, access, cost, or anything else. Write to us at
 [{{< var contact.email >}}](mailto:{{< var contact.email >}}). We are happy to
 hear from you.
 :::

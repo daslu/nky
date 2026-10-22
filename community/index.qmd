@@ -8,8 +8,8 @@ toc: false
 # Gatherings
 
 ::: {.stand}
-Spaces to practise and learn together, online and in person, led by FG and
-DS.
+These are spaces to practise and learn together, online and in person. [FG](../about/fg.qmd)
+and [DS](../about/ds.qmd) lead them together.
 :::
 ::::
 
@@ -23,9 +23,9 @@ DS.
 ::: {.item}
 ### [Practitioner Exchange](practitioner-exchange.qmd)
 
-For practitioners who want to lead groups with more confidence. Each
-participant leads a session in their own practice and gets feedback from the
-group.
+This retreat is for practitioners who want to lead groups with more
+confidence. Each participant leads a session in their own practice and gets
+feedback from the group.
 
 Tentatively May 2027 · three days · Germany · in English
 :::
@@ -33,8 +33,9 @@ Tentatively May 2027 · three days · Germany · in English
 ::: {.item}
 ### [Moving Together](moving-together.qmd)
 
-A movement retreat for anyone: yoga, tantra and improvised movement, alone, in
-pairs and as a whole group. No experience needed.
+This is a movement retreat for anyone. It brings together yoga, tantra and
+improvised movement, alone, in pairs and as a whole group. No experience is
+needed.
 
 Tentatively September 2027 · three days · Germany · in English
 :::
@@ -42,6 +43,7 @@ Tentatively September 2027 · three days · Germany · in English
 :::
 
 ::: {.ask}
-**Questions are welcome**, about either retreat or anything else. Write to us at
+**Questions are welcome**, about either retreat or about anything else. Write
+to us at
 [{{< var contact.email >}}](mailto:{{< var contact.email >}}).
 :::

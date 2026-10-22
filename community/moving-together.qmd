@@ -8,8 +8,8 @@ toc: false
 # Moving Together
 
 ::: {.stand}
-A three-day movement retreat for anyone. Yoga, tantra and improvised movement,
-alone, in pairs and as a whole group. No experience needed.
+This is a three-day movement retreat for anyone. It brings together yoga,
+tantra and improvised movement, practised alone, in pairs and as a whole group.
 :::
 ::::
 
@@ -92,8 +92,8 @@ through together.
 :::
 
 ::: {.ask}
-**Questions are welcome.** About the programme, the place, cost, access, or
-whether this is right for you: write to us at
+**Questions are welcome**, about the programme, the place, cost, access, or
+whether this is right for you. Write to us at
 [{{< var contact.email >}}](mailto:{{< var contact.email >}}). We are happy to
 hear from you, whatever you want to ask.
 :::

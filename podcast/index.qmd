@@ -1,6 +1,6 @@
 ---
 title: "The podcast"
-description: "A podcast of conversations with people who work with the body, hosted by FG and DS. No episodes yet."
+description: "A podcast of conversations with people who work with the body, hosted by FG and DS. There are no episodes yet."
 toc: false
 ---
 
@@ -8,8 +8,9 @@ toc: false
 # The podcast
 
 ::: {.stand}
-Conversations with people who work with the body, in spiritual, somatic,
-therapeutic, community and scientific settings. Hosted by FG and DS, who do not
+The podcast will be a series of conversations with people who work with the
+body, in spiritual, somatic, therapeutic, community and scientific settings.
+[FG](../about/fg.qmd) and [DS](../about/ds.qmd) will host it, and they do not
 always agree.
 :::
 ::::

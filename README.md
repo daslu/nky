@@ -1,7 +1,7 @@
 # Notknowing Garden
 
-The website of Notknowing Garden: a tantra practitioner and a yoga teacher making
-spaces, online and in person, for wellness and movement communities. The name
+The website of Notknowing Garden, run by FG and DS: spaces, online and in
+person, for wellness and movement communities. The name
 is provisional.
 
 Alongside the gatherings, the site carries long-form reading journeys through
