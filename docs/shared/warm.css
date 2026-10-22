@@ -403,6 +403,16 @@ main.content > p:not(.part){ max-width:36rem }
             mask-composite:add }
 }
 
+/* ── questions welcome ──────────────────────────────────────────
+   The contact line on the retreat and about pages. Quiet, but in body
+   colour rather than the grey of .empty: it is an invitation, not an
+   absence. */
+.ask{ max-width:36rem; margin:26px 0 22px; padding:16px 0 0;
+  border-top:1px solid var(--rule); font-size:17.5px; line-height:1.6;
+  color:var(--ink2) }
+.ask p{ margin:0 }
+.ask strong{ color:var(--ink); font-weight:600 }
+
 /* ── nothing here yet ──────────────────────────────────────────
    A quiet line, not a box. The dashed card around it read as scaffolding
    and drew more attention than the absence it was reporting. */

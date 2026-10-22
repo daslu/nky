@@ -36,6 +36,15 @@ Yoga teacher and community activist.
 
 :::
 
+## Write to us {#write-to-us}
+
+::: {.ask}
+Questions, ideas, or just hello: about the retreats, the writing, access, cost,
+or anything else. Write to us at
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}). We are happy to
+hear from you.
+:::
+
 ::: {.hands}
 [Said once, plainly]{.t}
 Nothing on this site is medical advice, and nothing on it can tell you what the

@@ -1,0 +1,6 @@
+# Site-wide values, used in pages as {{< var contact.email >}}.
+# PLACEHOLDER (2026-10-22): example.org is reserved for examples, so nothing
+# is delivered anywhere. Replace with the real address once there is one —
+# this is the only place it is written.
+contact:
+  email: hello@example.org

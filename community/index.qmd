@@ -39,3 +39,8 @@ Tentatively September 2027 · Germany · in English
 :::
 
 :::
+
+::: {.ask}
+**Questions are welcome**, about either retreat or anything else. Write to us at
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
+:::

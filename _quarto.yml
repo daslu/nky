@@ -91,6 +91,10 @@ website:
         href: about/fg.qmd
       - text: "DS"
         href: about/ds.qmd
+      # The address itself lives in _variables.yml; the footer points at the
+      # one place on the site that shows it.
+      - text: "write to us"
+        href: about/index.qmd#write-to-us
 
   ## Quarto picks the sidebar whose contents contain the page being rendered,
   ## so each story gets its own stops and no story advertises another's.
