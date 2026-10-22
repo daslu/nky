@@ -32,8 +32,8 @@ practice.
 [Gatherings]{.k}
 
 These are spaces to practise and learn together, online and in person. The
-first ones coming up are two retreats in 2027: [Practitioner
-Exchange](community/practitioner-exchange.qmd), for practitioners who want to
+first ones coming up are two retreats in 2027: [Practitioners'
+Circle](community/practitioners-circle.qmd), for practitioners who want to
 lead groups, and [Moving Together](community/moving-together.qmd), a movement
 retreat for anyone.
 

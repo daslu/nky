@@ -1,11 +1,11 @@
 ---
-title: "Practitioner Exchange"
+title: "Practitioners' Circle"
 description: "A facilitation retreat for wellness, bodymind and movement practitioners. Tentatively May 2027, in Germany, in English."
 toc: false
 ---
 
 :::: {.hero}
-# Practitioner Exchange
+# Practitioners' Circle
 
 ::: {.stand}
 This is a three-day retreat for practitioners who want to lead groups with

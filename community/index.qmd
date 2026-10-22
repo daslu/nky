@@ -1,6 +1,6 @@
 ---
 title: "Gatherings"
-description: "Gatherings led by FG and DS, online and in person. Coming up first: two retreats in 2027, Practitioner Exchange and Moving Together."
+description: "Gatherings led by FG and DS, online and in person. Coming up first: two retreats in 2027, Practitioners' Circle and Moving Together."
 toc: false
 ---
 
@@ -21,7 +21,7 @@ and [DS](../about/ds.qmd) lead them together.
 [Coming up]{.eyebrow}
 
 ::: {.item}
-### [Practitioner Exchange](practitioner-exchange.qmd)
+### [Practitioners' Circle](practitioners-circle.qmd)
 
 This retreat is for practitioners who want to lead groups with more
 confidence. Each participant leads a session in their own practice and gets

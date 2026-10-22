@@ -280,7 +280,7 @@ grove frames stay in `images/` untouched.
 | `writing.jpg` | 10-22 `15-08-31`, y 60 | `/writing/` | Low in the grass, one seed stem sharp, the wood behind it all bokeh: close attention to one thing, the way the journeys read. The quietest band on the site. |
 | `podcast.jpg` | 10-22 `15-08-37`, y 160 | `/podcast/` | Spruce crowns from below, two masses leaning in across a gap of sky: conversation, and the same idea the grove band carried. Distinct from `thumb-breath` (`15-08-39`), which looks straight up. |
 | `about.jpg` | 10-22 `15-08-46`, y 90 | `/about/` | Near moss soft, beyond it pairs of birch trunks standing close on one mound: two of them, together, in the same wood as their own pages. |
-| `practitioner.jpg` | 10-22 `15-08-35`, y 300, blur 9, q72 | `/community/practitioner-exchange/` | A stand of spruces on one shared moss floor: peers, each upright, on common ground. Busy, so it takes a stronger artificial depth of field. |
+| `practitioner.jpg` | 10-22 `15-08-35`, y 300, blur 9, q72 | `/community/practitioners-circle/` | A stand of spruces on one shared moss floor: peers, each upright, on common ground. Busy, so it takes a stronger artificial depth of field. |
 | `moving.jpg` | 10-22 `15-08-57`, y 180, blur 7 | `/community/moving-together/` | Light and open water seen between many kinds of trunk: room to move, a mixed group. The one airy band. |
 | `thumb-touch.jpg` | 10-22 `15-08-55` | `/writing/`, beside the touch journey | Frost on fine grass: filaments, like hair, which is what the second touch system lives in. |
 | `thumb-pain.jpg` | 10-22 `15-08-50` | `/writing/`, beside the pain journey | Spotted aspen leaves floating on a puddle with the sky in it: what lies on a surface, and what shows through it. |
@@ -293,7 +293,7 @@ are flat all-over texture; the sunlit birch and hazel frames (`15-08-59` to
 `15-09-03`) are bright, busy and carry a lens flare (`15-08-57`, the one
 without, is now Moving Together); the mossy boulders and paths (`15-08-34`,
 `-41` to `-43`) are sharp everywhere with no quiet area. `15-08-35` has the
-same fault and was used anyway for Practitioner Exchange, with a stronger
+same fault and was used anyway for Practitioners' Circle, with a stronger
 blur (9 rather than 6) outside the sharp strip; it is the busiest band on the
 site and the first to replace if a better peers image turns up. Of the near/far moss frames, `15-08-45 (2)` and `-47` stay unused: both are
 near-duplicates of the front door's `15-08-45`. `15-09-05` is the same

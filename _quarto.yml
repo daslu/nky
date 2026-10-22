@@ -177,9 +177,12 @@ format:
           <link rel="icon" type="image/svg+xml" href="/shared/img/favicon.svg">
           <link rel="apple-touch-icon" href="/shared/img/apple-touch-icon.png">
     # A skip link, for keyboard users: the first Tab stop on every page.
+    # And the DRAFT watermark (2026-10-22): delete the draft-mark line to
+    # remove it from every page at launch. Styled in warm.css (.draft-mark).
     include-before-body:
       - text: |
           <a class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to content</a>
+          <div class="draft-mark" aria-hidden="true"><span>Draft</span></div>
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.

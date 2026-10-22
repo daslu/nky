@@ -511,3 +511,16 @@ html{ overflow-x:clip }
 .nav-footer .nav-item{ padding-left:14px }
 .nav-footer .footer-brand{ display:inline-flex; align-items:center; gap:6px }
 .nav-footer .footer-mark{ height:22px; width:auto }
+
+/* ── the draft watermark ─────────────────────────────────────────
+   One faint word across every page while the site is a draft. It sits
+   above the content but takes no clicks or selection, so nothing under it
+   stops working; aria-hidden keeps it out of screen readers. Remove it by
+   deleting the draft-mark line in _quarto.yml — nothing else refers to it. */
+.draft-mark{ position:fixed; inset:0; z-index:1500; pointer-events:none;
+  display:flex; align-items:center; justify-content:center; overflow:hidden }
+.draft-mark span{ font-family:"Fraunces",serif; font-weight:600;
+  font-size:clamp(96px,20vw,280px); letter-spacing:.14em; text-transform:uppercase;
+  color:var(--clay); opacity:.07; transform:rotate(-22deg);
+  white-space:nowrap; user-select:none }
+@media print{ .draft-mark span{ opacity:.12 } }
