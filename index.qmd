@@ -1,6 +1,6 @@
 ---
 title: "Notknowing Garden"
-description: "Spaces for wellness and movement, online and in person, made by a tantra practitioner and a yoga teacher."
+description: "Retreats that bring yoga and tantra together, led by a tantra practitioner and a yoga teacher. In Germany, in English."
 # Without this, the preview card would be the first image on the page —
 # the lockup SVG, which most link previewers cannot show.
 image: shared/img/share.jpg
@@ -12,37 +12,37 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-Spaces to move, breathe, touch and learn together, online and in person. For
-people who are curious about their bodies and comfortable with not knowing yet.
+Retreats that bring yoga and tantra together, for practitioners and for anyone
+curious about their body. In Germany, held in English.
 :::
 ::::
 
 ::: {.band .band-front}
 :::
 
-Notknowing Garden is run by [FG](about/fg.qmd), a tantra practitioner, and
-[DS](about/ds.qmd), a yoga teacher. We bring our two practices together in
-retreats, gatherings and conversations for wellness and movement communities.
+Notknowing Garden is [FG](about/fg.qmd), a tantra practitioner and facilitator,
+and [DS](about/ds.qmd), a yoga teacher and community activist. We lead our
+retreats together, combining our two practices. The first two are in 2027.
 
 ::: {.ways}
-[Three ways in]{.eyebrow}
+[What you will find here]{.eyebrow}
 
 ::: {.way}
-[Gatherings]{.k}
+[Retreats]{.k}
 
-Two retreats in Germany in 2027, held in English: [Practitioner
-Exchange](community/practitioner-exchange.qmd), a facilitation retreat for
-practitioners, and [Moving Together](community/moving-together.qmd), a movement
-retreat for anyone.
+Two three-day retreats in Germany in 2027, held in English, with accommodation
+and food included: [Practitioner Exchange](community/practitioner-exchange.qmd),
+for practitioners who want to lead groups, and [Moving
+Together](community/moving-together.qmd), a movement retreat for anyone.
 
-[what is coming up →](community/index.qmd)
+[see the retreats →](community/index.qmd)
 :::
 
 ::: {.way}
 [Writing]{.k}
 
-Long reading journeys through what is known, and not known, about touch, pain
-and the breath.
+Long reading guides to the research on touch, pain and breathing: what is
+known, what is not, and what it means in practice.
 
 [read the writing →](writing/index.qmd)
 :::
@@ -50,7 +50,8 @@ and the breath.
 ::: {.way}
 [The podcast]{.k}
 
-Conversations about practice, with two hosts who do not always agree.
+Conversations with people who work with the body, hosted by the two of us. No
+episodes yet.
 
 [about the podcast →](podcast/index.qmd)
 :::

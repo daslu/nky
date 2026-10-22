@@ -1,14 +1,15 @@
 ---
-title: "Gatherings"
-description: "Upcoming retreats: Practitioner Exchange and Moving Together."
+title: "Retreats"
+description: "Two three-day retreats in Germany in 2027, held in English: Practitioner Exchange and Moving Together."
 toc: false
 ---
 
 :::: {.hero}
-# Gatherings
+# Retreats
 
 ::: {.stand}
-Retreats to move, rest and learn alongside other people.
+Three-day retreats in Germany, held in English, led by FG and DS.
+Accommodation and food are included.
 :::
 ::::
 
@@ -22,20 +23,20 @@ Retreats to move, rest and learn alongside other people.
 ::: {.item}
 ### [Practitioner Exchange](practitioner-exchange.qmd)
 
-A facilitation retreat for wellness, bodymind and movement practitioners. Each
-participant leads a session in their own modality and receives feedback from
-peers.
+For practitioners who want to lead groups with more confidence. Each
+participant leads a session in their own practice and gets feedback from the
+group.
 
-Tentatively May 2027 · Germany · in English
+Tentatively May 2027 · three days · Germany · in English
 :::
 
 ::: {.item}
 ### [Moving Together](moving-together.qmd)
 
-A movement retreat: yoga, tantra and improvised movement, alone, in pairs and
-as a whole group. No experience needed.
+A movement retreat for anyone: yoga, tantra and improvised movement, alone, in
+pairs and as a whole group. No experience needed.
 
-Tentatively September 2027 · Germany · in English
+Tentatively September 2027 · three days · Germany · in English
 :::
 
 :::

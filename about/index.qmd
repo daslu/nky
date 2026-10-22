@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Who we are and what Notknowing Garden is."
+description: "Notknowing Garden is two practitioners, FG and DS, who lead retreats together that combine tantra and yoga."
 toc: false
 ---
 
@@ -8,20 +8,24 @@ toc: false
 # About
 
 ::: {.stand}
-Notknowing Garden is the two of us, a tantra practitioner and a yoga teacher, and
-what we make together.
+Notknowing Garden is a collaboration between two practitioners, FG and DS. We
+lead retreats together that combine tantra and yoga, and we write about what
+the research says about the body.
 :::
 ::::
 
 ::: {.band .band-about}
 :::
 
+## Who we are
+
 ::: {.ways}
 
 ::: {.way}
 [FG]{.k}
 
-Tantra practitioner and facilitator.
+Tantra practitioner and facilitator, trained in tantra therapy. Offers
+one-to-one sessions and facilitates groups.
 
 [about FG →](fg.qmd)
 :::
@@ -35,6 +39,44 @@ Yoga teacher and community activist.
 :::
 
 :::
+
+## What we do
+
+::: {.ways}
+
+::: {.way}
+[Retreats]{.k}
+
+Three-day retreats in Germany, held in English, with accommodation and food
+included. The first two are in 2027: one for practitioners who want to lead
+groups, and one movement retreat for anyone.
+
+[see the retreats →](../community/index.qmd)
+:::
+
+::: {.way}
+[Writing]{.k}
+
+Long reading guides to the research on touch, pain and breathing.
+
+[read the writing →](../writing/index.qmd)
+:::
+
+::: {.way}
+[A podcast]{.k}
+
+Conversations with people who work with the body. No episodes yet.
+
+[about the podcast →](../podcast/index.qmd)
+:::
+
+:::
+
+## The name
+
+Much of what is taught about the body is less certain than it sounds. We would
+rather start from a question than from a fixed answer, in a room and on the
+page. Notknowing Garden is a place to grow from there.
 
 ## Write to us {#write-to-us}
 

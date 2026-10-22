@@ -1,6 +1,6 @@
 ---
 title: "The podcast"
-description: "Conversations with people who practise something with their bodies and think about what they are doing."
+description: "A podcast of conversations with people who work with the body, hosted by FG and DS. No episodes yet."
 toc: false
 ---
 
@@ -8,9 +8,9 @@ toc: false
 # The podcast
 
 ::: {.stand}
-Conversations with people who practise something with their bodies and think
-about what they are doing — spiritual, somatic, therapeutic, community, social,
-scientific. Two hosts, who do not always agree.
+Conversations with people who work with the body, in spiritual, somatic,
+therapeutic, community and scientific settings. Hosted by FG and DS, who do not
+always agree.
 :::
 ::::
 

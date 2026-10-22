@@ -14,3 +14,6 @@ DS is a yoga teacher and community activist.
 
 ::: {.band .band-ds}
 :::
+
+DS teaches yoga and works as a community activist. With FG, DS leads Notknowing
+Garden's [retreats](../community/index.qmd).

@@ -1,6 +1,6 @@
 ---
 title: "Writing"
-description: "Long reading journeys through what is known, and not known, about touch, pain and the breath."
+description: "Long reading guides to the research on touch, pain and breathing: what is known, what is not, and what it means in practice."
 toc: false
 ---
 
@@ -8,8 +8,8 @@ toc: false
 # Writing
 
 ::: {.stand}
-Long reading journeys through what is known, and not known, about the
-body.
+Long reading guides to the research on touch, pain and breathing: what is
+known, what is not, and what it means in practice.
 :::
 ::::
 

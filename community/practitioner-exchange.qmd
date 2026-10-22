@@ -8,8 +8,9 @@ toc: false
 # Practitioner Exchange
 
 ::: {.stand}
-A facilitation retreat. Knowing your practice well is one thing. Leading a group
-is another.
+A three-day retreat for practitioners who want to lead groups with more
+confidence. Knowing your practice well is one thing. Leading a group is
+another.
 :::
 ::::
 
@@ -102,4 +103,4 @@ whether this is right for you: write to us at
 hear from you, whatever you want to ask.
 :::
 
-[← all gatherings](index.qmd)
+[← all retreats](index.qmd)

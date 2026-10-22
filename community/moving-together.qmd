@@ -8,17 +8,17 @@ toc: false
 # Moving Together
 
 ::: {.stand}
-A movement retreat. What happens when a room full of people stops moving the way
-they think they should, and starts moving the way they actually feel, together?
+A three-day movement retreat for anyone. Yoga, tantra and improvised movement,
+alone, in pairs and as a whole group. No experience needed.
 :::
 ::::
 
 ::: {.band .band-moving}
 :::
 
-This retreat brings together yoga, tantra and improvised movement, practised
-alone, in pairs and as a whole group. Some sessions start from breath and
-awareness. Others open space for play and creative expression, where you follow,
+What happens when a room full of people stops moving the way they think they
+should, and starts moving the way they actually feel? Some sessions start from
+breath and awareness. Others open space for play and creative expression, where you follow,
 lead, mirror and respond to the people around you, and find out what a group can
 do that no one can do alone.
 
@@ -98,4 +98,4 @@ whether this is right for you: write to us at
 hear from you, whatever you want to ask.
 :::
 
-[← all gatherings](index.qmd)
+[← all retreats](index.qmd)

@@ -347,6 +347,9 @@ main.content > p:not(.part){ max-width:36rem }
 .ways{ max-width:38rem; margin:38px 0 8px; padding-top:22px;
   border-top:1px solid var(--rule) }
 .ways > p:first-child{ margin-bottom:18px }      /* the eyebrow's paragraph */
+/* Under a heading, the heading's own rule is enough: a second rule from
+   .ways read as a double line (About, 2026-10-22). */
+h2 + .ways{ border-top:none; margin-top:6px; padding-top:0 }
 .way{ padding:20px 0; border-bottom:1px solid var(--rule) }
 .way:last-child{ border-bottom:none }
 .way > p:first-child{ margin-bottom:7px }
