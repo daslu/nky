@@ -273,7 +273,7 @@ grove frames stay in `images/` untouched.
 
 | file | source frame | page | why this one |
 |---|---|---|---|
-| `front.jpg` | 10-22 `15-08-45` | `/` | Ground level in moss, one fern frond sharp, everything else bokeh. A living ground for a site now called a garden; the dry eucalyptus litter it replaced read as the old name. Large quiet area left. |
+| `front.jpg` | 10-22 `15-08-45` | `/` | Ground level in moss, one fallen toothed leaf sharp, everything else bokeh. A living ground for a site now called a garden; the dry eucalyptus litter it replaced read as the old name. Large quiet area left. |
 | `community.jpg` | 10-22 `15-09-04` | `/community/` (Gatherings) | A sunlit clearing among pines, open ground and a low stone: a place people could meet. Replaced a canopy. |
 | `fg.jpg` | 10-22 `15-08-32` | `/about/fg/` | A soft mound of moss close up, the wood blurred behind it: closeness and touch, without a person in it. Half the frame is quiet. |
 | `ds.jpg` | 10-22 `15-08-33`, left 160px cut | `/about/ds/` | Spruces standing rooted in a moss floor, many trees behind them: upright, and among others. The cut removes a jacket at the left edge, so this one is 1120 wide. |

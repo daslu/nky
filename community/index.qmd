@@ -8,7 +8,7 @@ toc: false
 # Gatherings
 
 ::: {.stand}
-Our gatherings take place online and in person.
+Our gatherings will take place online and in person.
 :::
 ::::
 
@@ -23,7 +23,7 @@ Our gatherings take place online and in person.
 ### [Practitioners' Circle](practitioners-circle.qmd)
 
 This retreat is for practitioners who want to lead groups with more
-confidence. Each participant leads a session in their own practice and gets
+confidence. Each participant will lead a session in their own practice and get
 feedback from the group.
 
 Tentatively May 2027 · three days · Germany · in English
@@ -33,7 +33,7 @@ Tentatively May 2027 · three days · Germany · in English
 ### [Moving Together](moving-together.qmd)
 
 This is a movement retreat for anyone. It brings together yoga, tantra and
-improvised movement, alone, in pairs and as a whole group. No experience is
+improvised movement, practised alone, in pairs and as a whole group. No experience is
 needed.
 
 Tentatively September 2027 · three days · Germany · in English

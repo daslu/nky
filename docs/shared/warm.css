@@ -267,6 +267,11 @@ div.csl-entry:target{ background:var(--paper2); border-radius:8px }
 
 @media (max-width:700px){
   body{ font-size:18px }
+  /* Quarto's grid already keeps ~29px either side on phones; the gutter on
+     top of it left a 285px column (graphic-designer review, round 2).
+     Figures are full bleed from the viewport, so they are unaffected. */
+  main.content{ padding-left:0; padding-right:0 }
+  .stand{ font-size:19px }
   h2{ font-size:26px }
   h3{ font-size:22px }
   /* Scoped: an unscoped .stop here also padded the h2, which carries the
@@ -334,13 +339,19 @@ html{ scroll-behavior:smooth }
   .hero.front{ text-align:center; margin-left:auto; margin-right:auto }
   .hero.front h1 img.lockup{ width:min(100%,260px); margin:0 auto } }
 .navbar-brand .navbar-logo{ max-height:34px; width:auto }
+/* The mark beside the name at about the lockup's proportion (mark ~2.9x the
+   name's capital height, logos/docs/lockup.html §B). At 34px it was ~1.6x,
+   a bullet point before the name (graphic-designer review, round 2). */
+.navbar-brand.navbar-brand-logo .navbar-logo{ max-height:44px }
 
 /* The name beside the mark is set in the lockup's face, not the body's.
    On narrow phones it no longer truncates to "Notknowing G…": the title
    goes and the mark stands alone, its alt text carrying the name. */
 .navbar-brand .navbar-title{ font-family:"Fraunces",serif; font-weight:520;
-  letter-spacing:-.01em; font-variation-settings:"SOFT" 0 }
-@media (max-width:420px){ .navbar-brand .navbar-title{ display:none } }
+  letter-spacing:-.01em; font-variation-settings:"SOFT" 0; color:var(--ink) }
+/* Hide the whole link, not only its text: hiding the span alone left an
+   empty, unnamed link as the second Tab stop (accessibility review, round 2). */
+@media (max-width:420px){ .navbar-brand:not(.navbar-brand-logo){ display:none } }
 
 /* Bootstrap's nav focus is a pale halo (1.34:1 on paper); use the site's
    own outline instead. */
@@ -382,7 +393,7 @@ h2 + .shelf > .item:first-child{ border-top:none; padding-top:12px }
    distinction was dropped and the posts are simply posts. */
 .shelf{ max-width:38rem; margin:38px 0 0; padding-top:8px }
 .item{ padding:22px 0; border-top:1px solid var(--rule) }
-.item h3{ margin:0 0 10px; max-width:24ch }
+.item h3{ margin:0 0 10px; max-width:24ch; text-wrap:balance }
 /* A linked title keeps the title's colour; the clay underline marks it. */
 .item h3 a{ color:inherit; font-weight:inherit; text-decoration:underline;
   text-decoration-color:var(--clay-text); text-decoration-thickness:1px;
@@ -430,7 +441,7 @@ h2 + .shelf > .item:first-child{ border-top:none; padding-top:12px }
    The contact line on the retreat and about pages. Quiet, but in body
    colour rather than the grey of .empty: it is an invitation, not an
    absence. */
-.ask{ max-width:36rem; margin:26px 0 22px; padding:16px 0 0;
+.ask{ max-width:38rem; margin:26px 0 22px; padding:16px 0 0;
   border-top:1px solid var(--rule); font-size:17px; line-height:1.6;
   color:var(--ink2) }
 .ask p{ margin:0 }
@@ -515,7 +526,11 @@ html{ overflow-x:clip }
    is worth avoiding — mobile Safari has a history of letting the page pan
    sideways into it. */
 @media (min-width:701px){
-  .band{ margin-left:calc(50% - 50vw - 24px); margin-right:calc(50% - 50vw - 24px) }
+  .band{ margin-left:calc(50% - 50vw - 24px); margin-right:calc(50% - 50vw - 24px);
+    /* The hero's own padding and the band's transparent top third already
+       give ~100px of paper above; 52px more put the band nearer the text
+       below it than the text above (graphic-designer review, round 2). */
+    margin-top:24px }
 }
 
 /* ── the footer ───────────────────────────────────────────────────
@@ -531,8 +546,30 @@ html{ overflow-x:clip }
 .nav-footer a{ color:var(--ink2); text-decoration:none }
 .nav-footer a:hover{ color:var(--clay-text); text-decoration:underline }
 .nav-footer .nav-item{ padding-left:14px }
-.nav-footer .footer-brand{ display:inline-flex; align-items:center; gap:6px }
+.nav-footer .footer-brand{ display:inline-flex; align-items:center; gap:6px;
+  font-family:"Fraunces",serif; font-weight:520; letter-spacing:-.01em;
+  font-variation-settings:"SOFT" 0; color:var(--ink) }
 .nav-footer .footer-mark{ height:22px; width:auto }
+/* Pandoc wraps each side in a <p>; their margins set the two sides ~7px
+   apart. The empty centre column takes 3em of height on phones. */
+.nav-footer p{ margin:0 }
+.nav-footer{ align-items:center }
+.nav-footer .nav-footer-center{ display:none }
+/* The footer's left edge follows the text column, whose position Quarto's
+   grid sets in steps (measured 2026-10-22): 29px to 700px, 53px to 767px,
+   81px to 991px, then 148px until the column centres at ~1164px. Quarto
+   pads it as `footer.footer .nav-footer`, so the selector must match. */
+footer.footer .nav-footer{ padding-left:53px; padding-right:53px }
+@media (max-width:700px){ footer.footer .nav-footer{ padding-left:29px; padding-right:29px } }
+@media (min-width:768px){ footer.footer .nav-footer{ padding-left:81px; padding-right:81px } }
+@media (min-width:992px){ footer.footer .nav-footer{ padding-left:max(148px, calc(50% - 434px));
+  padding-right:max(148px, calc(50% - 434px)) } }
+/* On phones the two sides stack; left-aligned, like the pages above them. */
+@media (max-width:767px){
+  .nav-footer{ text-align:left; flex-direction:column; align-items:flex-start; gap:6px }
+  .nav-footer .nav-footer-left, .nav-footer .nav-footer-right{ margin-bottom:0 }
+  .nav-footer .nav-item{ padding-left:0 }
+  .nav-footer .footer-items .nav-link{ padding-left:0 } }
 
 /* ── the draft watermark ─────────────────────────────────────────
    A corner ribbon, fixed to the top-right of the window, so it marks every
@@ -546,7 +583,7 @@ html{ overflow-x:clip }
   overflow:hidden; pointer-events:none; z-index:2000 }
 .draft-mark span{ position:absolute; top:11px; right:-39px; width:120px;
   height:20px; line-height:20px; transform:rotate(45deg); text-align:center;
-  background:#D7191C; color:#fff; opacity:.88;
+  background:#D7191C; color:#fff;
   font-family:"Fraunces",serif; font-weight:600; font-size:10px;
   letter-spacing:.16em; text-transform:uppercase; user-select:none;
   box-shadow:0 1px 3px rgba(0,0,0,.18) }

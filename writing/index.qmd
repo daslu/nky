@@ -1,6 +1,6 @@
 ---
 title: "Writing"
-description: "Writing about the body, movement and practice: what is known, what is not, and what it means day to day."
+description: "Writing about the body, movement and practice: what is known, what is not and what it means day to day."
 toc: false
 ---
 
@@ -9,7 +9,7 @@ toc: false
 
 ::: {.stand}
 We write about the body, movement and practice. Where there is research, we
-look at what is known, what is not, and what it means day to day.
+look at what is known, what is not and what it means day to day.
 :::
 ::::
 
@@ -24,14 +24,14 @@ look at what is known, what is not, and what it means day to day.
 ### Two kinds of touch
 
 How skin carries two separate systems, and why one of them answers mainly to
-affectionate touch.
+slow, gentle stroking.
 :::
 
 ::: {.item}
 ### Slow breathing, and what it really changes
 
 Your heart rate follows your breath, most strongly at about six breaths a
-minute. What that changes, and what it does not.
+minute. We look at what that changes, and what it does not.
 :::
 
 :::

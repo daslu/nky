@@ -1,9 +1,10 @@
 ---
 title: "Notknowing Garden"
-description: "Spaces to move, breathe, connect and learn together, online and in person, bringing yoga and tantra into one practice."
+description: "Spaces to move, breathe, connect and learn together, online and in person, combining yoga and tantra."
 # Without this, the preview card would be the first image on the page —
 # the lockup SVG, which most link previewers cannot show.
 image: shared/img/share.jpg
+image-alt: "Notknowing Garden — bodymind, tantra, and movement"
 toc: false
 ---
 
@@ -48,7 +49,7 @@ soon.
 ::: {.way}
 ### The podcast
 
-Conversations with people who work with the body. The first episodes will be
+We will talk with people who work with the body. The first episodes will be
 on authenticity in everyday life, and on shame and guilt.
 
 [About the podcast →](podcast/index.qmd)

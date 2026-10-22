@@ -1,6 +1,6 @@
 ---
 title: "FG"
-description: "FG, tantra practitioner and facilitator, trained in tantra therapy; one of the two people behind Notknowing Garden."
+description: "FG is a tantra practitioner and facilitator, trained in tantra therapy, and one of the two people behind Notknowing Garden."
 toc: false
 ---
 

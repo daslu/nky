@@ -17,15 +17,14 @@ tantra and improvised movement, practised alone, in pairs and as a whole group.
 :::
 
 What happens when a room full of people stops moving the way they think they
-should, and starts moving the way they actually feel? Some sessions start from
-breath and awareness. Others open space for play and creative expression, where you follow,
-lead, mirror and respond to the people around you, and find out what a group can
-do that no one can do alone.
+should, and starts moving the way they actually feel? Some sessions will start
+from breath and awareness. Others will open space for play and creative
+expression, where you follow, lead, mirror and respond to the people around you,
+and find out what a group can do that no one can do alone.
 
-Over the days, there is room for old habits to soften, for attention to widen
-from your own body to the people around you, and to be seen as you are, and to
-meet others more authentically. No experience is needed, and there is no right
-way to do any of it.
+Over the three days, there will be time to notice old habits, and to widen your
+attention from your own body to the group. No experience is needed, and there is
+no right way to do any of it.
 
 We will share the group agreements before you book. Throughout, you are free to
 take part at your own pace — to sit out, or to watch.
@@ -54,7 +53,7 @@ Germany.
 ::: {.ab}
 [Touch]{.k}
 
-Some exercises involve touch between participants, such as a hand on the back
+Some exercises will involve touch between participants, such as a hand on the back
 or leaning into each other's weight. Touch is always optional: you can say no,
 or change your mind, at any time without giving a reason, and there is always a
 way to take part without it. Nothing in the retreat is sexual, and everyone
@@ -86,9 +85,10 @@ through together.
 :::
 
 ::: {.ask}
-**Questions are welcome**, about the programme, the place, cost, access, or
+**Questions are welcome**, about the programme, the place, cost, access or
 whether this is right for you. Write to us at
-[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}), also if you would
+like to hear when the dates and price are set.
 :::
 
 [← All gatherings](index.qmd)

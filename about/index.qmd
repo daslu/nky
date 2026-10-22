@@ -35,10 +35,10 @@ practise that, in a room and on the page.
 ## Write to us {#write-to-us}
 
 ::: {.ask}
-We welcome questions, ideas, or just a hello. Write to us at
+We welcome questions, ideas or just a hello. Write to us at
 [{{< var contact.email >}}](mailto:{{< var contact.email >}}).
 :::
 
-::: {.hands}
+::: {.foot}
 Nothing on this site is medical advice.
 :::

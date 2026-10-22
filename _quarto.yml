@@ -49,13 +49,14 @@ website:
   # need site-url. The card is shared/img/share.jpg (1200x630).
   site-url: https://daslu.github.io/nky
   image: /shared/img/share.jpg
+  image-alt: "Notknowing Garden — bodymind, tantra, and movement"
   open-graph: true
   twitter-card: true
-  description: "Spaces to move, breathe, connect and learn together, online and in person, bringing yoga and tantra into one practice."
+  description: "Spaces to move, breathe, connect and learn together, online and in person, combining yoga and tantra."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
-  # The comma from the old name, "not knowing, yet", set in Fraunces. Kept
-  # until a mark for Notknowing Garden is chosen — see logos/.
+  # The mark (logos/, living/logo-small), padded to a square. The SVG icon
+  # and the touch icon are linked in include-in-header below.
   favicon: shared/img/favicon.png
 
   ## One navbar for the whole site. Quarto has no per-directory navbar — this
@@ -87,8 +88,7 @@ website:
         href: about/index.qmd
 
   ## Every page used to stop dead at the end of its last paragraph. This is
-  ## the close, and it is the one place the two of them are named on every
-  ## page rather than only on /about/.
+  ## the close: the mark and the name, and the way to write to us.
   page-footer:
     left: '<a href="/index.html" class="footer-brand"><img src="/shared/img/mark.svg" alt="" class="footer-mark"> Notknowing Garden</a>'
     right:
@@ -177,13 +177,18 @@ format:
           <meta name="robots" content="noindex">
           <link rel="icon" type="image/svg+xml" href="/shared/img/favicon.svg">
           <link rel="apple-touch-icon" href="/shared/img/apple-touch-icon.png">
-    # A skip link, for keyboard users: the first Tab stop on every page.
+    # A skip link, for keyboard users. Quarto writes include-before-body after
+    # the navbar, so a script in include-after-body moves the link to the top
+    # of <body>; only there is it the first Tab stop.
     # And the DRAFT watermark (2026-10-22): delete the draft-mark line to
     # remove it from every page at launch. Styled in warm.css (.draft-mark).
     include-before-body:
       - text: |
           <a class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to content</a>
           <div class="draft-mark" aria-hidden="true"><span>Draft</span></div>
+    include-after-body:
+      - text: |
+          <script>document.body.prepend(document.querySelector('.skip-link'))</script>
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.
