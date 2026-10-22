@@ -33,12 +33,6 @@ take part at your own pace — to sit out, or to watch.
 :::: {.about}
 
 ::: {.ab}
-[Led by]{.k}
-
-[FG](../about/fg.qmd) and [DS](../about/ds.qmd), together.
-:::
-
-::: {.ab}
 [Who it is for]{.k}
 
 Anyone curious about movement, connection and creativity, whether you have
@@ -94,8 +88,7 @@ through together.
 ::: {.ask}
 **Questions are welcome**, about the programme, the place, cost, access, or
 whether this is right for you. Write to us at
-[{{< var contact.email >}}](mailto:{{< var contact.email >}}). We are happy to
-hear from you, whatever you want to ask.
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
 :::
 
-[← all gatherings](index.qmd)
+[← All gatherings](index.qmd)

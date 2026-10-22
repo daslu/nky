@@ -1,6 +1,6 @@
 ---
 title: "Gatherings"
-description: "Gatherings led by FG and DS, online and in person. Coming up first: two retreats in 2027, Practitioners' Circle and Moving Together."
+description: "Gatherings online and in person. Coming up first: two retreats in 2027, Practitioners' Circle and Moving Together."
 toc: false
 ---
 
@@ -8,17 +8,16 @@ toc: false
 # Gatherings
 
 ::: {.stand}
-These are spaces to practise and learn together, online and in person. [FG](../about/fg.qmd)
-and [DS](../about/ds.qmd) lead them together.
+Our gatherings take place online and in person.
 :::
 ::::
 
 ::: {.band .band-community}
 :::
 
-::: {.shelf}
+## Coming up
 
-[Coming up]{.eyebrow}
+::: {.shelf}
 
 ::: {.item}
 ### [Practitioners' Circle](practitioners-circle.qmd)
@@ -43,7 +42,6 @@ Tentatively September 2027 · three days · Germany · in English
 :::
 
 ::: {.ask}
-**Questions are welcome**, about either retreat or about anything else. Write
-to us at
+**Questions are welcome.** Write to us at
 [{{< var contact.email >}}](mailto:{{< var contact.email >}}).
 :::

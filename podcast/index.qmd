@@ -1,6 +1,6 @@
 ---
 title: "The podcast"
-description: "A podcast of conversations with people who work with the body, hosted by FG and DS. There are no episodes yet."
+description: "A podcast of conversations with people who work with the body, hosted by FG and DS. Coming up: authenticity in everyday life, and shame and guilt."
 toc: false
 ---
 
@@ -18,6 +18,16 @@ always agree.
 ::: {.band .band-podcast}
 :::
 
-::: {.empty}
-No episodes yet.
+## Upcoming episodes
+
+::: {.shelf}
+
+::: {.item}
+### Authenticity in everyday life
+:::
+
+::: {.item}
+### Shame and guilt
+:::
+
 :::

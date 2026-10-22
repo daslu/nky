@@ -17,9 +17,8 @@ is another.
 ::: {.band .band-practitioner}
 :::
 
-This three-day retreat gives around twelve wellness, bodymind and
-movement practitioners a place to practise group facilitation with other
-practitioners.
+It gives wellness, bodymind and movement practitioners a place to practise
+group facilitation with each other.
 Each participant leads a session in their own practice and then gets feedback
 from the group, with a simple structure for giving it. Along the way, you experience other
 traditions from the inside and compare notes on what it takes to lead a group
@@ -32,16 +31,9 @@ free to try new things as a facilitator, at the edge you choose.
 :::: {.about}
 
 ::: {.ab}
-[Led by]{.k}
-
-[FG](../about/fg.qmd) and [DS](../about/ds.qmd), together.
-:::
-
-::: {.ab}
 [Who it is for]{.k}
 
-Teachers, therapists and practitioners who want to lead groups with more
-confidence, presence and care. Adults (18+).
+Teachers, therapists and other practitioners. Adults (18+).
 :::
 
 ::: {.ab}
@@ -99,8 +91,7 @@ through together.
 ::: {.ask}
 **Questions are welcome**, about the programme, the place, cost, access, or
 whether this is right for you. Write to us at
-[{{< var contact.email >}}](mailto:{{< var contact.email >}}). We are happy to
-hear from you, whatever you want to ask.
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
 :::
 
-[← all gatherings](index.qmd)
+[← All gatherings](index.qmd)

@@ -14,6 +14,3 @@ DS is a yoga teacher and community activist.
 
 ::: {.band .band-ds}
 :::
-
-Together with [FG](fg.qmd), DS creates Notknowing Garden's
-[gatherings](../community/index.qmd).

@@ -6,6 +6,10 @@
 ## genuinely this story's own: which references it cites, and which scripts
 ## draw its figures.
 
+## Unlinked for review (2026-10-22): kept out of site search until the
+## writing is linked again. See the navbar note in _quarto.yml.
+search: false
+
 bibliography: refs.bib
 link-citations: true
 

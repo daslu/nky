@@ -72,13 +72,18 @@ website:
     logo: shared/img/mark.svg
     logo-alt: "Notknowing Garden home"
     left:
-      - text: "gatherings"
+      - text: "Gatherings"
         href: community/index.qmd
-      - text: "writing"
+      # The writing page lists the posts as upcoming, with no links, while
+      # the maintainer reviews them (2026-10-22). The journey pages still
+      # render, and are kept out of site search by `search: false` in each
+      # journey's _metadata.yml. To publish one: link its title on
+      # writing/index.qmd and remove that flag.
+      - text: "Writing"
         href: writing/index.qmd
-      - text: "the podcast"
+      - text: "The podcast"
         href: podcast/index.qmd
-      - text: "about"
+      - text: "About"
         href: about/index.qmd
 
   ## Every page used to stop dead at the end of its last paragraph. This is
@@ -87,13 +92,9 @@ website:
   page-footer:
     left: '<a href="/index.html" class="footer-brand"><img src="/shared/img/mark.svg" alt="" class="footer-mark"> Notknowing Garden</a>'
     right:
-      - text: "FG"
-        href: about/fg.qmd
-      - text: "DS"
-        href: about/ds.qmd
       # The address itself lives in _variables.yml; the footer points at the
       # one place on the site that shows it.
-      - text: "write to us"
+      - text: "Write to us"
         href: about/index.qmd#write-to-us
 
   ## Quarto picks the sidebar whose contents contain the page being rendered,

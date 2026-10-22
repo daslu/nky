@@ -1,6 +1,6 @@
 ---
 title: "Writing"
-description: "Long reading guides to the research on touch, pain and breathing: what is known, what is not, and what it means in practice."
+description: "Writing about the body, movement and practice: what is known, what is not, and what it means day to day."
 toc: false
 ---
 
@@ -8,47 +8,30 @@ toc: false
 # Writing
 
 ::: {.stand}
-These are long reading guides to the research on touch, pain and breathing.
-Each one looks at what is known, what is not, and what it means in practice.
+We write about the body, movement and practice. Where there is research, we
+look at what is known, what is not, and what it means day to day.
 :::
 ::::
 
 ::: {.band .band-writing}
 :::
 
+## Upcoming posts
+
 ::: {.shelf}
 
 ::: {.item}
-::: {.thumb .thumb-touch}
-:::
+### Two kinds of touch
 
-### [Touch is not one sense](../touch-journey/index.qmd)
-
-Skin carries at least two separate systems, and they are not sending the same
-message. One tells you *what* you are touching. The other answers mainly to being
-touched *affectionately* — and it fires hardest at one particular speed.
+How skin carries two separate systems, and why one of them answers mainly to
+affectionate touch.
 :::
 
 ::: {.item}
-::: {.thumb .thumb-pain}
-:::
+### Slow breathing, and what it really changes
 
-### [Pain is not a damage report](../pain-journey/index.qmd)
-
-How much something hurts is not a reading of how damaged it is. At sixty, *88%* of
-people with no back pain at all have disc degeneration on a scan — and a −20 °C rod
-feels hotter under a red light than a blue one.
-:::
-
-::: {.item}
-::: {.thumb .thumb-breath}
-:::
-
-### [Breathing is not a switch](../breath-journey/index.qmd)
-
-There really is a rate at which the heart, the blood vessels and the breath fall
-into step, and it is about *six breaths a minute*. Most of the rest of what gets
-claimed for the breath is hope — including the part about getting more oxygen in.
+Your heart rate follows your breath, most strongly at about six breaths a
+minute. What that changes, and what it does not.
 :::
 
 :::

@@ -11,10 +11,14 @@
 /* The two faces, self-hosted (2026-10-22). They were fetched from Google
    Fonts, which sends every visitor's IP to Google — LG München I, 3 O
    17493/20 (2022). Variable files: one per subset covers every weight used.
-   Licence: shared/fonts/OFL-*.txt. */
-@font-face{ font-family:'Fraunces'; font-style:normal; font-weight:400 600; font-display:swap;
+   Licence: shared/fonts/OFL-*.txt.
+   Fraunces is the full upstream cut (google/fonts, ofl/fraunces), not the
+   Google Fonts API subset: it keeps the SOFT axis, which the API drops.
+   WONK is pinned at 1 and weight trimmed to 300-700 (fontTools instancer),
+   so at SOFT 0 it draws exactly what the API file drew (2026-10-22). */
+@font-face{ font-family:'Fraunces'; font-style:normal; font-weight:300 700; font-display:swap;
   src:url(fonts/fraunces-normal-latin.woff2) format('woff2'); unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face{ font-family:'Fraunces'; font-style:normal; font-weight:400 600; font-display:swap;
+@font-face{ font-family:'Fraunces'; font-style:normal; font-weight:300 700; font-display:swap;
   src:url(fonts/fraunces-normal-latin-ext.woff2) format('woff2'); unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 @font-face{ font-family:'Newsreader'; font-style:italic; font-weight:300 600; font-display:swap;
   src:url(fonts/newsreader-italic-latin.woff2) format('woff2'); unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
@@ -48,7 +52,20 @@
 }
 
 body{ -webkit-font-smoothing:antialiased; }
-h1,h2,h3{ letter-spacing:-0.012em; line-height:1.14; }
+/* ── the type system (2026-10-22) ────────────────────────────────
+   Two faces, each with one job. Fraunces sets headings and the name, and
+   nothing else; everything that is read, labelled or clicked is Newsreader.
+   Headings take Fraunces' SOFT axis at full: the serifs and terminals round
+   off, the garden's face rather than the chisel's. The name in the navbar
+   stays at SOFT 0, because it sits beside the mark and must match the
+   outlined lockup, which was drawn at 0.
+   Sizes: 60 / 30 / 24 for h1 / h2 / h3, 21.5 standfirst, 19 body (18 on
+   phones), 17 secondary, 15 fine print. Text colours: --ink, --ink2, and
+   --clay-text for links. No capitals anywhere but the lockup's tagline. */
+h1,h2,h3{ letter-spacing:-0.012em; line-height:1.14;
+  font-variation-settings:"SOFT" 100 }
+h2{ font-size:30px; max-width:38rem }   /* its rule ends where the lists below it end */
+h3{ font-size:24px }
 p{ margin:0 0 1.05em; }
 a{ text-underline-offset:3px; text-decoration-thickness:1px; }
 :focus-visible{ outline:2px solid var(--blue); outline-offset:3px; border-radius:4px; }
@@ -101,9 +118,8 @@ main.content{
   border-bottom:1px solid var(--rule) }
 .ab:last-child{ border-bottom:none }
 .ab p{ grid-column:2; font-size:17px; line-height:1.58; color:var(--ink2); margin:0 0 .6em }
-.ab > p:first-child{ grid-column:1; grid-row:1; padding-top:3px; margin-bottom:0 }
-.ab .k{ font-family:"Fraunces",serif; font-size:13.5px;
-  letter-spacing:.04em; color:var(--dis-text) }
+.ab > p:first-child{ grid-column:1; grid-row:1; margin-bottom:0 }
+.ab .k{ font-size:17px; font-weight:600; color:var(--ink) }
 .ab p:last-child{ margin-bottom:0 }
 .ab strong{ color:var(--ink); font-weight:600 }
 @media (max-width:640px){
@@ -240,18 +256,19 @@ div.csl-entry:target{ background:var(--paper2); border-radius:8px }
 .sidebar-navigation .sidebar-item-container .sidebar-item-text:hover{ color:var(--ink) }
 .sidebar-navigation .sidebar-item-container .active,
 .sidebar-navigation .sidebar-item-container .sidebar-item-text.active{ color:var(--clay-text) }
-#TOC{ font-family:"Fraunces",serif }
-#TOC .nav-link{ font-size:12.5px; color:var(--ink3-text); border-left:2px solid var(--rule);
+#TOC .nav-link{ font-size:15px; color:var(--ink3-text); border-left:2px solid var(--rule);
   padding:5px 0 5px 14px; line-height:1.3 }
 #TOC .nav-link:hover{ color:var(--ink) }
 #TOC .nav-link.active{ color:var(--clay-text); border-left-color:var(--clay) }
 .toc-actions, #quarto-margin-sidebar .quarto-alternate-formats{ display:none }
-.nav-page .nav-page-text{ font-family:"Fraunces",serif; font-size:15px }
+.nav-page .nav-page-text{ font-size:15px }
 .nav-page a{ color:var(--clay-text) }
 #quarto-content .quarto-title-banner{ display:none }
 
 @media (max-width:700px){
   body{ font-size:18px }
+  h2{ font-size:26px }
+  h3{ font-size:22px }
   /* Scoped: an unscoped .stop here also padded the h2, which carries the
      same class — 42px between the eyebrow and its heading on phones. */
   section.stop{ padding:42px 0 }
@@ -322,7 +339,7 @@ html{ scroll-behavior:smooth }
    On narrow phones it no longer truncates to "Notknowing G…": the title
    goes and the mark stands alone, its alt text carrying the name. */
 .navbar-brand .navbar-title{ font-family:"Fraunces",serif; font-weight:520;
-  letter-spacing:-.01em }
+  letter-spacing:-.01em; font-variation-settings:"SOFT" 0 }
 @media (max-width:420px){ .navbar-brand .navbar-title{ display:none } }
 
 /* Bootstrap's nav focus is a pale halo (1.34:1 on paper); use the site's
@@ -334,30 +351,30 @@ html{ scroll-behavior:smooth }
 /* The skip link: hidden until focused, then a quiet tab at the top left. */
 .skip-link:focus{ position:fixed; top:10px; left:10px; z-index:2000;
   background:var(--card); color:var(--ink); padding:8px 14px;
-  border:2px solid var(--blue); border-radius:6px; font-family:"Fraunces",serif }
+  border:2px solid var(--blue); border-radius:6px }
 
 /* A measure for running text outside the journeys. Every other block on the
    section and event pages stops at 36-38rem; plain paragraphs ran the full
    940px column, 100-110 characters a line. Journey prose sits inside
    section.stop with its own measure, and is not a direct child of main. */
 main.content > p:not(.part){ max-width:36rem }
-.hero.front .stand{ font-size:22.5px; color:var(--ink2) }
+/* The same measure under a section heading (About): Quarto wraps each h2 in
+   a <section>, so its paragraphs are not direct children of main. */
+section.level2:not(.stop) > p{ max-width:36rem }
+.hero.front .stand{ color:var(--ink2) }
 
 /* ── three ways in ───────────────────────────────────────────── */
 .ways{ max-width:38rem; margin:38px 0 8px; padding-top:22px;
   border-top:1px solid var(--rule) }
-.ways > p:first-child{ margin-bottom:18px }      /* the eyebrow's paragraph */
 /* Under a heading, the heading's own rule is enough: a second rule from
    .ways read as a double line (About, 2026-10-22). */
-h2 + .ways{ border-top:none; margin-top:6px; padding-top:0 }
+h2 + .ways, h2 + .ask, h2 + .shelf{ border-top:none; margin-top:6px; padding-top:0 }
+h2 + .shelf > .item:first-child{ border-top:none; padding-top:12px }
 .way{ padding:20px 0; border-bottom:1px solid var(--rule) }
 .way:last-child{ border-bottom:none }
-.way > p:first-child{ margin-bottom:7px }
-.way .k{ font-family:"Fraunces",serif; font-size:19px; color:var(--ink);
-  letter-spacing:-.01em }
-.way p{ font-size:17.5px; line-height:1.58; color:var(--ink2); margin:0 0 .55em }
+.way h3{ margin:0 0 8px }
+.way p{ font-size:17px; line-height:1.58; color:var(--ink2); margin:0 0 .55em }
 .way p:last-child{ margin-bottom:0 }
-.way a{ font-family:"Fraunces",serif; font-size:15.5px }
 
 /* ── the writing list ─────────────────────────────────────────
    One list, one kind of post. This carried a journeys/notes split until
@@ -365,10 +382,13 @@ h2 + .ways{ border-top:none; margin-top:6px; padding-top:0 }
    distinction was dropped and the posts are simply posts. */
 .shelf{ max-width:38rem; margin:38px 0 0; padding-top:8px }
 .item{ padding:22px 0; border-top:1px solid var(--rule) }
-.item h3{ font-size:clamp(22px,2.8vw,27px); margin:0 0 10px; max-width:24ch }
-.item h3 a{ color:var(--clay-text); text-decoration:underline;
-  text-decoration-thickness:1px; text-underline-offset:4px }
-.item p{ font-size:17.5px; line-height:1.58; color:var(--ink2);
+.item h3{ margin:0 0 10px; max-width:24ch }
+/* A linked title keeps the title's colour; the clay underline marks it. */
+.item h3 a{ color:inherit; font-weight:inherit; text-decoration:underline;
+  text-decoration-color:var(--clay-text); text-decoration-thickness:1px;
+  text-underline-offset:4px }
+.item h3 a:hover{ color:var(--clay-text) }
+.item p{ font-size:17px; line-height:1.58; color:var(--ink2);
   margin:0 0 .6em; max-width:33rem }
 .item p:last-child{ margin-bottom:0 }
 
@@ -411,7 +431,7 @@ h2 + .ways{ border-top:none; margin-top:6px; padding-top:0 }
    colour rather than the grey of .empty: it is an invitation, not an
    absence. */
 .ask{ max-width:36rem; margin:26px 0 22px; padding:16px 0 0;
-  border-top:1px solid var(--rule); font-size:17.5px; line-height:1.6;
+  border-top:1px solid var(--rule); font-size:17px; line-height:1.6;
   color:var(--ink2) }
 .ask p{ margin:0 }
 .ask strong{ color:var(--ink); font-weight:600 }
@@ -420,12 +440,11 @@ h2 + .ways{ border-top:none; margin-top:6px; padding-top:0 }
    A quiet line, not a box. The dashed card around it read as scaffolding
    and drew more attention than the absence it was reporting. */
 .empty{ display:block; max-width:34rem; margin:22px 0 0;
-  font-size:16.5px; line-height:1.55; color:var(--ink3-text) }
+  font-size:17px; line-height:1.55; color:var(--ink2) }
 
 /* ── the navbar, warmed ──────────────────────────────────────── */
 .navbar{ border-bottom:1px solid var(--rule); background:var(--paper)!important }
-.navbar .navbar-nav .nav-link{ font-family:"Fraunces",serif; font-size:15px;
-  color:var(--ink2)!important; letter-spacing:.01em }
+.navbar .navbar-nav .nav-link{ font-size:17px; color:var(--ink2)!important }
 .navbar .navbar-nav .nav-link:hover{ color:var(--ink)!important }
 .navbar .navbar-nav .nav-link.active{ color:var(--clay-text)!important }
 
@@ -503,9 +522,12 @@ html{ overflow-x:clip }
    Every page used to stop dead. The band fades out, this closes. */
 .nav-footer{
   background:var(--paper2); border-top:1px solid var(--rule);
-  font-family:"Fraunces",serif; font-size:14px; color:var(--ink2);
+  font-size:15px; color:var(--ink2);
   padding-top:18px; padding-bottom:18px; margin-top:0;
 }
+/* Quarto sets each footer column to .825em, which made the 15px footer 12.4px. */
+.nav-footer .nav-footer-left, .nav-footer .nav-footer-center,
+.nav-footer .nav-footer-right{ font-size:inherit }
 .nav-footer a{ color:var(--ink2); text-decoration:none }
 .nav-footer a:hover{ color:var(--clay-text); text-decoration:underline }
 .nav-footer .nav-item{ padding-left:14px }
@@ -513,14 +535,18 @@ html{ overflow-x:clip }
 .nav-footer .footer-mark{ height:22px; width:auto }
 
 /* ── the draft watermark ─────────────────────────────────────────
-   One faint word across every page while the site is a draft. It sits
-   above the content but takes no clicks or selection, so nothing under it
-   stops working; aria-hidden keeps it out of screen readers. Remove it by
-   deleting the draft-mark line in _quarto.yml — nothing else refers to it. */
-.draft-mark{ position:fixed; inset:0; z-index:1500; pointer-events:none;
-  display:flex; align-items:center; justify-content:center; overflow:hidden }
-.draft-mark span{ font-family:"Fraunces",serif; font-weight:600;
-  font-size:clamp(96px,20vw,280px); letter-spacing:.14em; text-transform:uppercase;
-  color:var(--clay); opacity:.07; transform:rotate(-22deg);
-  white-space:nowrap; user-select:none }
-@media print{ .draft-mark span{ opacity:.12 } }
+   A corner ribbon, fixed to the top-right of the window, so it marks every
+   page without lying over the content (2026-10-22; it was a large diagonal
+   word across the page). Deliberately outside the palette — a plain
+   proofing red — so it cannot be mistaken for part of the design. It takes
+   no clicks; aria-hidden keeps it out of screen readers. Its band runs
+   ~20-40px in from the corner, clear of the navbar's search icon.
+   Remove by deleting the draft-mark line in _quarto.yml. */
+.draft-mark{ position:fixed; top:0; right:0; width:100px; height:100px;
+  overflow:hidden; pointer-events:none; z-index:2000 }
+.draft-mark span{ position:absolute; top:11px; right:-39px; width:120px;
+  height:20px; line-height:20px; transform:rotate(45deg); text-align:center;
+  background:#D7191C; color:#fff; opacity:.88;
+  font-family:"Fraunces",serif; font-weight:600; font-size:10px;
+  letter-spacing:.16em; text-transform:uppercase; user-select:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.18) }

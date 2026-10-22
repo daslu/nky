@@ -1,6 +1,10 @@
 ## Applies to every document in this directory and below, and to nothing
 ## outside it. Theme, stylesheet and citation style are project-level.
 
+## Unlinked for review (2026-10-22): kept out of site search until the
+## writing is linked again. See the navbar note in _quarto.yml.
+search: false
+
 bibliography: refs.bib
 link-citations: true
 

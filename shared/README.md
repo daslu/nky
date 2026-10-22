@@ -458,6 +458,23 @@ a Google Fonts link: it sends every visitor's IP to Google, which a German
 court has held unlawful without consent. `$web-font-path: false` in
 `warm.scss` stops Cosmo's own `@import` of Source Sans Pro.
 
+Fraunces is the **full upstream cut** (google/fonts `ofl/fraunces`), not the
+Fonts API file, because the API drops the `SOFT` axis. It was cut with
+fontTools: `WONK` pinned at 1, weight 300-700, then subset to the same two
+unicode ranges. At SOFT 0 it draws exactly what the API file drew.
+
+**The type system** (2026-10-22; the rules are at the top of `warm.css`).
+Fraunces sets headings and the name, and nothing else. Headings use
+`SOFT` 100, rounded for the garden. The navbar name stays at SOFT 0 to
+match the outlined lockup. Everything read, labelled or clicked is
+Newsreader. Sizes: 60/30/24 for h1/h2/h3 (26/22 on phones), 21.5 for the
+standfirst, 19 for body, 17 for secondary, 15 for fine print. Text colours on
+the brand pages: ink, ink2, and clay for links. No capitals except the
+lockup's tagline, and sentence case for nav and links. Section labels are
+real `##` headings, not `.eyebrow` spans. The journeys still use their
+older labels (`.eyebrow`, `.year`, `.part`, `.src .lbl`, flip cards); they
+have not had this pass yet.
+
 Text uses the darker tokens: `--clay-text`, `--dis-text`, `--ink3-text`
 (on paper2, use `--ink2`) and `--blue-text`. These meet WCAG AA (4.5:1). The
 original `--clay`, `--dis`, `--ink3` and `--blue` stay for fills, rules and

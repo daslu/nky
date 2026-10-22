@@ -21,40 +21,36 @@ curious about their body.
 ::: {.band .band-front}
 :::
 
-Notknowing Garden is run by [FG](about/fg.qmd) and [DS](about/ds.qmd). We
-create these spaces together, and in them we bring yoga and tantra into one
-practice.
+## What you will find here
 
 ::: {.ways}
-[What you will find here]{.eyebrow}
 
 ::: {.way}
-[Gatherings]{.k}
+### Gatherings
 
-These are spaces to practise and learn together, online and in person. The
-first ones coming up are two retreats in 2027: [Practitioners'
+The first gatherings coming up are two retreats in 2027: [Practitioners'
 Circle](community/practitioners-circle.qmd), for practitioners who want to
 lead groups, and [Moving Together](community/moving-together.qmd), a movement
 retreat for anyone.
 
-[see what is coming up →](community/index.qmd)
+[See what is coming up →](community/index.qmd)
 :::
 
 ::: {.way}
-[Writing]{.k}
+### Writing
 
-We write long reading guides to the research on touch, pain and breathing.
-Each one looks at what is known, what is not, and what it means in practice.
+We write about the body, movement and practice. The first posts are coming
+soon.
 
-[read the writing →](writing/index.qmd)
+[See the upcoming posts →](writing/index.qmd)
 :::
 
 ::: {.way}
-[The podcast]{.k}
+### The podcast
 
-The podcast will be a series of conversations with people who work with the
-body, hosted by the two of us. There are no episodes yet.
+Conversations with people who work with the body. The first episodes will be
+on authenticity in everyday life, and on shame and guilt.
 
-[about the podcast →](podcast/index.qmd)
+[About the podcast →](podcast/index.qmd)
 :::
 :::
