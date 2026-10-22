@@ -1,38 +1,41 @@
 ---
-title: "Community"
-description: "Study sessions, open calls, and a smaller space for practitioners."
+title: "Gatherings"
+description: "Upcoming retreats: Practitioner Exchange and Moving Together."
 toc: false
 ---
 
 :::: {.hero}
-# Community
+# Gatherings
 
 ::: {.stand}
-Ways to learn and share with other people who do this work.
+Retreats to move, rest and learn alongside other people.
 :::
 ::::
 
 ::: {.band .band-community}
 :::
 
-::: {.ways}
+::: {.shelf}
 
-::: {.way}
-[Open events]{.k}
+[Coming up]{.eyebrow}
 
-Study sessions on a chosen text or topic, and online calls with a guest. Open to
-anyone, and some become podcast episodes.
+::: {.item}
+### [Practitioner Exchange](practitioner-exchange.qmd)
+
+A facilitation retreat for wellness, bodymind and movement practitioners. Each
+participant leads a session in their own modality and receives feedback from
+peers.
+
+Tentatively May 2027 · Germany · in English
 :::
 
-::: {.way}
-[A smaller circle]{.k}
+::: {.item}
+### [Moving Together](moving-together.qmd)
 
-Something smaller and more private, for practitioners. Joined separately. How it
-works will be written down here before it starts.
+A movement retreat: yoga, tantra and improvised movement, side by side, in pairs
+and as a whole group. No experience needed.
+
+Tentatively September 2027 · Germany · in English
 :::
 
-:::
-
-::: {.empty}
-Nothing is scheduled yet, and there is no form to fill in.
 :::

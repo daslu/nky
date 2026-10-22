@@ -10,3 +10,10 @@ docs/**/dist/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# logos/ — the Clojure logo sketches
+logos/.cpcache/
+logos/.clay/
+logos/.nrepl-port
+logos/target/
+logos/temp/

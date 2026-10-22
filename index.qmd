@@ -1,56 +1,55 @@
 ---
-title: "not knowing, yet"
-description: "An informal community project supporting learning and sharing among body-mind practitioners."
+title: "Notknowing Garden"
+description: "Spaces for wellness and movement, online and in person, made by a tantra therapist and a yoga teacher."
 toc: false
 ---
 
 :::: {.hero .front}
 
-# not knowing, yet
+# <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-How to be in a body. How to be with others. How to make something together.
-No answers yet — just people working at the edge of what they know.
+Spaces to move, breathe, touch and learn together, online and in person. For
+people who are curious about their bodies and do not mind not knowing yet.
 :::
 ::::
 
 ::: {.band .band-front}
 :::
 
-NKY is a community project to support body-mind practitioners and therapists in
-sharing and learning together.
-
-It is run by [FG](about/fg.qmd) and [DS](about/ds.qmd).
+Notknowing Garden is run by [FG](about/fg.qmd), a tantra therapist, and
+[DS](about/ds.qmd), a yoga teacher. We bring our two practices together to host
+gatherings, classes and conversations for wellness and movement communities.
 
 ::: {.ways}
 [Three ways in]{.eyebrow}
 
 ::: {.way}
+[Gatherings]{.k}
+
+Two retreats in Germany in 2027, held in English: [Practitioner
+Exchange](community/practitioner-exchange.qmd), a facilitation retreat for
+practitioners, and [Moving Together](community/moving-together.qmd), a movement
+retreat for anyone.
+
+[what is coming up →](community/index.qmd)
+:::
+
+::: {.way}
+[Writing]{.k}
+
+What we are learning, and long reading journeys through what is known, and not
+known, about touch, pain and the breath.
+
+[read →](writing/index.qmd)
+:::
+
+::: {.way}
 [The podcast]{.k}
 
 Conversations with people who practise something with their bodies and think
-about what they are doing — spiritual, somatic, therapeutic, community,
-scientific. Two hosts, who do not always agree.
+about what they are doing. Two hosts, who do not always agree.
 
 [the show →](podcast/index.qmd)
-:::
-
-::: {.way}
-[The writing]{.k}
-
-Learnings, experiences, thoughts, and long-form reading journeys through what is
-known and not known about how bodies work.
-
-[what we have written →](writing/index.qmd)
-:::
-
-::: {.way}
-[Community]{.k}
-
-Study sessions on a chosen text, and open online calls with a guest that anyone
-can join and listen in on. Later, perhaps, a smaller and more private space for
-practitioners.
-
-[what happens, and how to join →](community/index.qmd)
 :::
 :::

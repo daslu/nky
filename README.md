@@ -1,10 +1,12 @@
-# Stories
+# Notknowing Garden
 
-Long-form reading journeys through what is known — and not known — about how
-bodies work, written for people who work with them: massage therapists,
-bodyworkers, physiotherapists, nurses, movement and somatic practitioners.
+The website of Notknowing Garden: a tantra therapist and a yoga teacher making
+spaces, online and in person, for wellness and movement communities. The name
+is provisional.
 
-Each story is self-contained, sourced in the open, and built to be **operated**
+Alongside the gatherings, the site carries long-form reading journeys through
+what is known — and not known — about how bodies work. Each story is
+self-contained, sourced in the open, and built to be **operated**
 rather than only read. Every claim names its source before you meet it, and
 says how much that source can carry.
 
@@ -15,13 +17,14 @@ while it is being drafted.
 nky/
 ├── _quarto.yml       the site: what renders, the theme, navbar, sidebars
 ├── index.qmd         the front door
-├── writing/          both kinds of writing — journeys and notes
+├── writing/          one list of posts, journeys included
 ├── podcast/          the show                     placeholder
-├── together/         community meetings           placeholder
+├── community/        gatherings, in person and online  placeholder
 ├── about/            the two of us                placeholder
+├── logos/            Clojure notebooks for exploring a mark — not rendered by Quarto
 ├── shared/           theme, figure kit and checkers — see shared/README.md
 ├── touch-journey/    Touch is not one sense       ┐ not yet moved under
-├── pain-journey/     Pain is not a damage report  │ writing/journeys/ —
+├── pain-journey/     Pain is not a damage report  │ writing/ —
 ├── breath-journey/   Breathing is not a switch    ┘ see dev-notes/HANDOFF.md
 ├── docs/             OUTPUT ONLY — Quarto deletes what it does not own here
 └── dev-notes/        working notes — gitignored, local to a working copy

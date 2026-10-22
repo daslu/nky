@@ -261,9 +261,38 @@ title is a quoted record and is never reworded.
 
 ## The photographs
 
-`shared/img/` holds the site's only images, cropped and graded from a set of
-photographs taken on one walk in a eucalyptus grove, 8 October 2026. Five are
-band images, one per section page; the rest are the favicon and the share card.
+`shared/img/` holds the site's only images, cropped and graded from two walks:
+a eucalyptus grove on 8 October 2026 (`images/leaves/photo_2026-10-08_*`) and a
+northern spruce-and-birch wood on 22 October (`photo_2026-10-22_*`). Seven are
+bands, one per section page; three are small photographs beside the journeys on
+`/writing/`; the rest are the favicon and the share card.
+
+| file | source frame | page | why this one |
+|---|---|---|---|
+| `front.jpg` | 10-22 `15-08-45` | `/` | Ground level in moss, one fern frond sharp, everything else bokeh. A living ground for a site now called a garden; the dry eucalyptus litter it replaced read as the old name. Large quiet area left. |
+| `community.jpg` | 10-22 `15-09-04` | `/community/` (Gatherings) | A sunlit clearing among pines, open ground and a low stone: a place people could meet. Replaced a canopy. |
+| `fg.jpg` | 10-22 `15-08-32` | `/about/fg/` | A soft mound of moss close up, the wood blurred behind it: closeness and touch, without a person in it. Half the frame is quiet. |
+| `ds.jpg` | 10-22 `15-08-33`, left 160px cut | `/about/ds/` | Spruces standing rooted in a moss floor, many trees behind them: upright, and among others. The cut removes a jacket at the left edge, so this one is 1120 wide. |
+| `writing.jpg` | 10-08 | `/writing/` | Unchanged. |
+| `podcast.jpg` | 10-08 | `/podcast/` | Unchanged — two canopies leaning in across a sky; nothing new said it better. |
+| `about.jpg` | 10-08 | `/about/` | Unchanged. The 10-22 frame of two trunks side by side was tried and was too busy. |
+| `thumb-touch.jpg` | 10-22 `15-08-55` | `/writing/`, beside the touch journey | Frost on fine grass: filaments, like hair, which is what the second touch system lives in. |
+| `thumb-pain.jpg` | 10-22 `15-08-50` | `/writing/`, beside the pain journey | Spotted aspen leaves floating on a puddle with the sky in it: what lies on a surface, and what shows through it. |
+| `thumb-breath.jpg` | 10-22 `15-08-39` | `/writing/`, beside the breath journey | Looking straight up through spruce crowns to open sky. |
+| `share.jpg` | 10-22 `15-08-45` | the Open Graph card, not yet wired | Rebuilt for the new name; the old card still said *not knowing, yet* and carried the old tagline. |
+
+The 22 October frames that were looked at and left alone: the top-down moss,
+leaf and gravel frames (`15-08-29`, `-30`, `-40`, `-48`, `-53`, `-54`, `-56`)
+are flat all-over texture; the sunlit birch and hazel frames (`15-08-57` to
+`15-09-03`) are bright, busy and carry a lens flare; the mossy boulders and
+paths (`15-08-34`, `-35`, `-41` to `-44`) are sharp everywhere with no quiet
+area. The near/far moss frames not used (`15-08-31`, `-45 (2)`, `-46`, `-47`)
+are the first place to look for another band.
+
+**The photographs beside the journeys are not inside them.** They sit on
+`/writing/`, which is a section page, as CSS backgrounds on an empty
+`.thumb` div — so they are not content, and say nothing. The journeys
+themselves, opening pages included, still carry no photograph.
 
 **The rule that keeps them from competing with the figures.** A figure is an
 object *on* the page — card, border, radius, shadow — and everything in one
@@ -297,6 +326,28 @@ static against the type. The images that work have a near and a far.
 horizontal strip stays sharp. That last step is an artificial depth of field,
 and it is what makes a texture legible at band height.
 
+The 22 October frames are brighter and far greener than the eucalyptus set,
+so they take more: saturation 52 rather than 78, hue 96 (greens turned a few
+degrees toward olive), `-brightness-contrast -6x-6`, and 10–12% gold colorize.
+Measured against the older bands they then land in the same range — mean HSL
+saturation 0.13–0.17 against 0.10–0.15, mean lightness 0.42–0.50 against
+0.45–0.53. They are cut at the source's native width (1280, or 1120 for
+`ds.jpg`) rather than resized to 1600 — the source is 1280 wide, and an
+upscale in the file only costs bytes. The browser scales either way. The
+thumbnails are 480x360 crops with the same grade and no artificial depth of
+field.
+
+**The share card** is an HTML page screenshotted by headless Chrome at
+1200x630, so the type is the site's own Fraunces and Newsreader: the graded
+photograph across the top 430px, masked to paper over its lower half, the
+name at 86px and the front door's first sentence beneath it.
+
+**A thumbnail's edge is two linear fades intersected** (`mask-composite:
+intersect`), a soft rectangle. A radial mask was tried first and read as an
+oval vignette — a frame, which is what a photograph here must not have. On a
+phone the thumbnail becomes a 120px strip above the title with the band's own
+vertical fade.
+
 **The fade is a CSS mask, not baked into the JPEG.** A gradient to a flat
 colour is exactly where JPEG banding shows worst, and a mask lets one asset
 serve more than one band height.
@@ -308,6 +359,13 @@ already there is deleted. And the bands bleed to `100vw`, which includes the
 scrollbar: `html{overflow-x:clip}` absorbs that. It must be `clip` and not
 `hidden`, because `hidden` would make `html` a scroll container and break both
 the sticky page TOC and the smooth scrolling set at the top of the stylesheet.
+
+A third, found by screenshot on 2026-10-22: `50% - 50vw` is exact only when
+the content column is centred in the viewport, and at desktop widths Quarto's
+grid is not — with overlay scrollbars the band stopped about 8px short of the
+left edge. Above 700px the band now bleeds 24px past the viewport on each side
+and `clip` takes the excess. Not on phones, where the column is centred and
+overflow is best avoided.
 
 **The source photographs are not originals.** No EXIF, quality 72, 4:2:0
 subsampling, every file capped at 1280 on the long edge — a messaging-app

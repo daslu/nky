@@ -1,4 +1,4 @@
-## The stories site.
+## Notknowing Garden — the site.
 ##
 ## Project root sits at the repo root deliberately. Quarto mirrors input paths
 ## under output-dir and offers no path rewriting, so a story's source directory
@@ -41,12 +41,12 @@ project:
     - breath-journey/js/**
 
 website:
-  title: "not knowing, yet"
-  description: "An informal community project supporting learning and sharing among body-mind practitioners."
+  title: "Notknowing Garden"
+  description: "Spaces for wellness and movement, online and in person, made by a tantra therapist and a yoga teacher."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
-  # The comma, which the name cannot do without. Set in Fraunces, the
-  # site's own display face, so the tab matches the page.
+  # The comma from the old name, "not knowing, yet", set in Fraunces. Kept
+  # until a mark for Notknowing Garden is chosen — see logos/.
   favicon: shared/img/favicon.png
 
   ## One navbar for the whole site. Quarto has no per-directory navbar — this
@@ -57,14 +57,18 @@ website:
   ## index.html there made the front door a member of all three and it
   ## rendered wearing the touch stops. The way home is the brand below.
   navbar:
-    title: "not knowing, yet"
+    title: "Notknowing Garden"
+    # The mark alone, cropped to its own width (shared/img/mark.svg, from
+    # logos/svg/logo.svg). The full lockup is on the front door.
+    logo: shared/img/mark.svg
+    logo-alt: ""
     left:
-      - text: "the podcast"
-        href: podcast/index.qmd
+      - text: "gatherings"
+        href: community/index.qmd
       - text: "writing"
         href: writing/index.qmd
-      - text: "community"
-        href: community/index.qmd
+      - text: "the podcast"
+        href: podcast/index.qmd
       - text: "about"
         href: about/index.qmd
 
@@ -72,7 +76,7 @@ website:
   ## the close, and it is the one place the two of them are named on every
   ## page rather than only on /about/.
   page-footer:
-    left: "not knowing, yet"
+    left: "Notknowing Garden"
     right:
       - text: "FG"
         href: about/fg.qmd

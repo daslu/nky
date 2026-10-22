@@ -1,0 +1,7 @@
+{:source-path         ["notebooks/notknowing_garden_logos.clj"
+                       "notebooks/living_curves.clj"
+                       "notebooks/lockup.clj"]
+ :base-target-path    "docs"
+ :clean-up-target-dir true
+ :hide-ui-header      true
+ :title               "Notknowing Garden — logo sketches"}

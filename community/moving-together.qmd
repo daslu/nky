@@ -1,0 +1,63 @@
+---
+title: "Moving Together"
+description: "A movement retreat bringing together yoga, tantra and improvised movement, alone, in pairs and as a group. Tentatively September 2027, in Germany, in English."
+toc: false
+---
+
+:::: {.hero}
+# Moving Together
+
+::: {.stand}
+A movement retreat. What happens when a room full of people stops moving the way
+they think they should, and starts moving the way they actually feel, together?
+:::
+::::
+
+This retreat brings together yoga, tantra and improvised movement, practised
+side by side, in pairs and as a whole group. Some sessions ground us in breath
+and awareness. Others open space for play and creative expression, where we
+follow, lead, mirror and respond to one another, and find out what a group can
+do that no one can do alone.
+
+Over the days, a group of strangers becomes a group that moves together. Old
+habits soften, attention widens from your own body to the bodies around you, and
+there is room to be seen as you are, and to meet others more authentically. No experience is
+needed, and there's no right way to do any of it.
+
+Everything happens within clear agreements, with care around touch and
+connection, and the freedom to take part at your own pace.
+
+:::: {.about}
+
+::: {.ab}
+[Who it is for]{.k}
+
+Anyone curious about movement, connection and creativity, whether you've
+practised for years or are just beginning.
+:::
+
+::: {.ab}
+[When]{.k}
+
+Tentatively September 2027.
+:::
+
+::: {.ab}
+[Where]{.k}
+
+Germany. The venue will be announced.
+:::
+
+::: {.ab}
+[Language]{.k}
+
+English.
+:::
+
+::::
+
+::: {.empty}
+Dates, venue and price are not fixed yet.
+:::
+
+[← all gatherings](index.qmd)

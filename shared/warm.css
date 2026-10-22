@@ -261,10 +261,19 @@ html{ scroll-behavior:smooth }
    `.ab .k` documents above. */
 
 /* ── the front door ──────────────────────────────────────────── */
-/* The project name is lowercase and the comma is load-bearing, so it is
-   set larger and tighter than a story title and never capitalised by CSS. */
+/* The project name is set larger and tighter than a story title, and never
+   re-cased by CSS — it is written exactly as it should read. */
 .hero.front h1{ font-size:clamp(40px,7vw,68px); text-transform:none;
   margin-bottom:22px }
+/* The horizontal lockup stands in for the name on the front door. It is
+   outlined SVG (logos/svg/lockup-horizontal-outlined.svg), so it needs no
+   fonts; the h1 keeps the name as alt text. */
+.hero.front h1 img.lockup{ display:block; width:min(100%,560px); height:auto }
+/* Below 600px the horizontal tagline falls under ~7px; the stacked lockup
+   (logos/svg/lockup-stacked-outlined.svg) keeps it legible. */
+@media (max-width:600px){
+  .hero.front h1 img.lockup{ width:min(100%,260px); margin-left:-8px } }
+.navbar-brand .navbar-logo{ max-height:34px; width:auto }
 .hero.front .stand{ font-size:22.5px; color:var(--ink2) }
 
 /* ── three ways in ───────────────────────────────────────────── */
@@ -292,6 +301,40 @@ html{ scroll-behavior:smooth }
 .item p{ font-size:17.5px; line-height:1.58; color:var(--ink2);
   margin:0 0 .6em; max-width:33rem }
 .item p:last-child{ margin-bottom:0 }
+
+/* A post may carry a small photograph beside it (added 2026-10-22, for the
+   three journeys). It is page, not object, exactly like a band: no border,
+   no radius, no shadow, and its edges sink back into the paper through a
+   mask. It is a CSS background on an empty div, so it is not content and
+   says nothing — the journey it sits beside carries the evidence. The
+   journeys themselves still carry no photograph. */
+.shelf:has(.thumb){ max-width:45rem }
+.item:has(.thumb){ display:grid; grid-template-columns:minmax(0,1fr) 172px;
+  column-gap:30px; align-items:start }
+.item:has(.thumb) > :not(.thumb){ grid-column:1 }
+.thumb{ grid-column:2; grid-row:1 / span 2; width:172px; aspect-ratio:4/3;
+  margin-top:4px;
+  background-size:cover; background-position:center; background-repeat:no-repeat;
+  /* two linear fades intersected: a soft-edged rectangle, not an oval
+     vignette, which read as a frame */
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 16%,#000 84%,transparent),
+                     linear-gradient(180deg,transparent,#000 16%,#000 84%,transparent);
+  -webkit-mask-composite:source-in;
+          mask-image:linear-gradient(90deg,transparent,#000 16%,#000 84%,transparent),
+                     linear-gradient(180deg,transparent,#000 16%,#000 84%,transparent);
+          mask-composite:intersect }
+.thumb-touch { background-image:url(img/thumb-touch.jpg) }
+.thumb-pain  { background-image:url(img/thumb-pain.jpg) }
+.thumb-breath{ background-image:url(img/thumb-breath.jpg) }
+@media (max-width:700px){
+  .item:has(.thumb){ grid-template-columns:minmax(0,1fr) }
+  .thumb{ grid-column:1; grid-row:auto; width:100%; aspect-ratio:auto;
+    height:120px; margin:0 0 14px;
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 30%,#000 70%,transparent);
+    -webkit-mask-composite:source-over;
+            mask-image:linear-gradient(180deg,transparent,#000 30%,#000 70%,transparent);
+            mask-composite:add }
+}
 
 /* ── nothing here yet ──────────────────────────────────────────
    A quiet line, not a box. The dashed card around it read as scaffolding
@@ -356,9 +399,22 @@ html{ overflow-x:clip }
 .band-podcast  { background-image:url(img/podcast.jpg) }
 .band-community{ background-image:url(img/community.jpg) }
 .band-about    { background-image:url(img/about.jpg) }
+.band-fg       { background-image:url(img/fg.jpg) }
+.band-ds       { background-image:url(img/ds.jpg) }
 
 @media (max-width:700px){
   .band{ margin-top:46px; height:clamp(132px,32vw,190px) }
+}
+/* On a wide screen, 24px past the viewport on each side, clipped by
+   html{overflow-x:clip}. 50% - 50vw is exact only when the content column
+   is centred in the viewport, and at desktop widths Quarto's grid is not
+   quite: with overlay scrollbars (macOS) the band stopped ~8px short of the
+   left edge, a sliver of paper beside the photograph. Found 2026-10-22 by
+   screenshot. Not on phones, where the column is centred and any overflow
+   is worth avoiding — mobile Safari has a history of letting the page pan
+   sideways into it. */
+@media (min-width:701px){
+  .band{ margin-left:calc(50% - 50vw - 24px); margin-right:calc(50% - 50vw - 24px) }
 }
 
 /* ── the footer ───────────────────────────────────────────────────

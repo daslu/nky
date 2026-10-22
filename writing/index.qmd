@@ -8,8 +8,8 @@ toc: false
 # Writing
 
 ::: {.stand}
-A space where we share our learnings, experiences, thoughts, and reading
-journeys.
+What we are learning, what we have noticed, and long reading journeys
+through what is known about the body.
 :::
 ::::
 
@@ -19,6 +19,9 @@ journeys.
 ::: {.shelf}
 
 ::: {.item}
+::: {.thumb .thumb-touch}
+:::
+
 ### [Touch is not one sense](../touch-journey/index.qmd)
 
 Skin carries at least two separate systems, and they are not sending the same
@@ -27,6 +30,9 @@ touched *affectionately* — and it fires hardest at one particular speed.
 :::
 
 ::: {.item}
+::: {.thumb .thumb-pain}
+:::
+
 ### [Pain is not a damage report](../pain-journey/index.qmd)
 
 How much something hurts is not a reading of how damaged it is. At sixty, *88%* of
@@ -35,6 +41,9 @@ feels hotter under a red light than a blue one.
 :::
 
 ::: {.item}
+::: {.thumb .thumb-breath}
+:::
+
 ### [Breathing is not a switch](../breath-journey/index.qmd)
 
 There really is a rate at which the heart, the blood vessels and the breath fall

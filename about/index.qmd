@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Who we are, what this is, and what it is not."
+description: "Who we are and what Notknowing Garden is."
 toc: false
 ---
 
@@ -8,7 +8,8 @@ toc: false
 # About
 
 ::: {.stand}
-Two of us run this, in whatever time we have.
+Notknowing Garden is the two of us, a tantra therapist and a yoga teacher, and
+what we make together.
 :::
 ::::
 
@@ -20,7 +21,7 @@ Two of us run this, in whatever time we have.
 ::: {.way}
 [FG]{.k}
 
-Tantra therapist.
+Tantra therapist and facilitator.
 
 [about FG →](fg.qmd)
 :::
@@ -28,7 +29,7 @@ Tantra therapist.
 ::: {.way}
 [DS]{.k}
 
-Yoga teacher.
+Yoga teacher and community activist.
 
 [about DS →](ds.qmd)
 :::
@@ -37,7 +38,6 @@ Yoga teacher.
 
 ::: {.hands}
 [Said once, plainly]{.t}
-We are not offering therapy, diagnosis or treatment. Nothing on this site is
-medical advice, and nothing on it can tell you what the person in front of you
-wants.
+Nothing on this site is medical advice, and nothing on it can tell you what the
+person in front of you wants.
 :::
