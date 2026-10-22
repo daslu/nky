@@ -395,10 +395,10 @@ h2 + .shelf > .item:first-child{ border-top:none; padding-top:12px }
 .item{ padding:22px 0; border-top:1px solid var(--rule) }
 .item h3{ margin:0 0 10px; max-width:24ch; text-wrap:balance }
 /* A linked title keeps the title's colour; the clay underline marks it. */
-.item h3 a{ color:inherit; font-weight:inherit; text-decoration:underline;
+.item h3 a, .way h3 a{ color:inherit; font-weight:inherit; text-decoration:underline;
   text-decoration-color:var(--clay-text); text-decoration-thickness:1px;
   text-underline-offset:4px }
-.item h3 a:hover{ color:var(--clay-text) }
+.item h3 a:hover, .way h3 a:hover{ color:var(--clay-text) }
 .item p{ font-size:17px; line-height:1.58; color:var(--ink2);
   margin:0 0 .6em; max-width:33rem }
 .item p:last-child{ margin-bottom:0 }

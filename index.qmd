@@ -13,10 +13,10 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-We are [FG](about/fg.qmd) and [DS](about/ds.qmd). We bring yoga and tantra
-together, in spaces online and in person where people can move, breathe, connect
-and learn. They are for practitioners, and for anyone who is curious about their
-body.
+Are you looking for a place to move, breathe, connect and learn with other
+people? We are [FG](about/fg.qmd) and [DS](about/ds.qmd). We bring yoga and
+tantra together, in spaces online and in person, for practitioners and for
+anyone who is curious about their body.
 :::
 
 [Coming up first: two retreats in 2027 →](community/index.qmd)
@@ -30,30 +30,24 @@ body.
 ::: {.ways}
 
 ::: {.way}
-### Gatherings
+### [Gatherings](community/index.qmd)
 
 [Practitioners' Circle](community/practitioners-circle.qmd) is for
 practitioners who want to lead groups. [Moving
 Together](community/moving-together.qmd) is a movement retreat for anyone.
-
-[See what is coming up →](community/index.qmd)
 :::
 
 ::: {.way}
-### Writing
+### [Writing](writing/index.qmd)
 
 Where there is research, we look at what is known and what is not. The first
 posts are coming soon.
-
-[See the upcoming posts →](writing/index.qmd)
 :::
 
 ::: {.way}
-### The podcast
+### [The podcast](podcast/index.qmd)
 
 We will talk with people who work with the body. The first episodes will be
 on authenticity in everyday life, and on shame and guilt.
-
-[About the podcast →](podcast/index.qmd)
 :::
 :::
