@@ -1,5 +1,7 @@
 ---
 title: "Two · why slow works"
+pagetitle: "Why slow works · Breathing is not a switch"
+body-classes: stop-page
 description: "The heart is already following your breath, one rate makes that swing largest, and that rate is not the same for everybody."
 ---
 

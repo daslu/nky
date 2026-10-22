@@ -477,6 +477,7 @@
 (def logo
   {:w 12 :tip-w 1 :taper 1.6 :foot 0.2 :tips [[60 6] [38 20]]})
 
+
 ;; ## Candidates
 ;;
 ;; Named option maps, shared by the notebook and the SVG export.
@@ -501,6 +502,12 @@
   {:stroke? true :w 18 :tip-w 7 :taper 1.3 :foot 0.4 :tips [[62 24] [38 32]]
    :width 44 :margin 3
    :curl [{:strand 1 :len 10 :turn -170} {:strand 0 :len 14 :turn 210}]})
+
+(def logo-small
+  "The logo redrawn heavier for 16-48 pixels: the favicon and touch icon
+  (shared/img/favicon.svg). Same layout — sage lower and left, clay higher
+  and right — drawn as stroked runs so the stems do not fold."
+  (assoc favicon :tips [[64 8] [36 24]] :curl nil :w 20 :tip-w 6))
 
 (defn in
   "The same mark in other colours: one colour, or a pair [clay-stem sage-stem]."

@@ -432,3 +432,17 @@ google-chrome --headless --disable-gpu --no-sandbox \
   --virtual-time-budget=6000 --screenshot=/tmp/page.png \
   "file://$PWD/docs/breath-journey/why-slow.html"
 ```
+
+## Fonts and colour tokens
+
+Fraunces and Newsreader are **self-hosted** (`shared/fonts/`, OFL, variable
+woff2, latin and latin-ext), declared by `@font-face` at the top of
+`warm.css` and listed under `resources` in `_quarto.yml`. Do not reintroduce
+a Google Fonts link: it sends every visitor's IP to Google, which a German
+court has held unlawful without consent. `$web-font-path: false` in
+`warm.scss` stops Cosmo's own `@import` of Source Sans Pro.
+
+Text uses the darker tokens: `--clay-text`, `--dis-text`, `--ink3-text`
+(on paper2, use `--ink2`) and `--blue-text`. These meet WCAG AA (4.5:1). The
+original `--clay`, `--dis`, `--ink3` and `--blue` stay for fills, rules and
+figure drawings. `--leaf` is the mark's green.

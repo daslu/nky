@@ -1,6 +1,6 @@
 ---
 title: "Touch is not one sense"
-description: "A reading journey for hands-on practitioners."
+description: "Skin carries at least two separate systems. One tells you what you are touching; the other answers mainly to affectionate touch. A reading journey."
 toc: false
 ---
 

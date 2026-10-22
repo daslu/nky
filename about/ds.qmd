@@ -1,6 +1,6 @@
 ---
 title: "DS"
-description: "One of the two people behind Notknowing Garden."
+description: "DS, yoga teacher and community activist, one of the two people behind Notknowing Garden."
 toc: false
 ---
 

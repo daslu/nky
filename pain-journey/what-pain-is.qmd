@@ -1,5 +1,7 @@
 ---
 title: "One · what pain is"
+pagetitle: "What pain is · Pain is not a damage report"
+body-classes: stop-page
 description: "How much back pain there is, why an experience is not a reading, and what happens to a signal on the way in."
 ---
 

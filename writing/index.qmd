@@ -1,6 +1,6 @@
 ---
 title: "Writing"
-description: "Learnings, experiences, thoughts, and reading journeys."
+description: "Long reading journeys through what is known, and not known, about touch, pain and the breath."
 toc: false
 ---
 
@@ -8,8 +8,8 @@ toc: false
 # Writing
 
 ::: {.stand}
-What we are learning, what we have noticed, and long reading journeys
-through what is known about the body.
+Long reading journeys through what is known, and not known, about the
+body.
 :::
 ::::
 

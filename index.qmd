@@ -1,6 +1,9 @@
 ---
 title: "Notknowing Garden"
 description: "Spaces for wellness and movement, online and in person, made by a tantra therapist and a yoga teacher."
+# Without this, the preview card would be the first image on the page —
+# the lockup SVG, which most link previewers cannot show.
+image: shared/img/share.jpg
 toc: false
 ---
 
@@ -10,7 +13,7 @@ toc: false
 
 ::: {.stand}
 Spaces to move, breathe, touch and learn together, online and in person. For
-people who are curious about their bodies and do not mind not knowing yet.
+people who are curious about their bodies and comfortable with not knowing yet.
 :::
 ::::
 
@@ -18,8 +21,8 @@ people who are curious about their bodies and do not mind not knowing yet.
 :::
 
 Notknowing Garden is run by [FG](about/fg.qmd), a tantra therapist, and
-[DS](about/ds.qmd), a yoga teacher. We bring our two practices together to host
-gatherings, classes and conversations for wellness and movement communities.
+[DS](about/ds.qmd), a yoga teacher. We bring our two practices together in
+retreats, gatherings and conversations for wellness and movement communities.
 
 ::: {.ways}
 [Three ways in]{.eyebrow}
@@ -38,18 +41,17 @@ retreat for anyone.
 ::: {.way}
 [Writing]{.k}
 
-What we are learning, and long reading journeys through what is known, and not
-known, about touch, pain and the breath.
+Long reading journeys through what is known, and not known, about touch, pain
+and the breath.
 
-[read →](writing/index.qmd)
+[read the writing →](writing/index.qmd)
 :::
 
 ::: {.way}
 [The podcast]{.k}
 
-Conversations with people who practise something with their bodies and think
-about what they are doing. Two hosts, who do not always agree.
+Conversations about practice, with two hosts who do not always agree.
 
-[the show →](podcast/index.qmd)
+[about the podcast →](podcast/index.qmd)
 :::
 :::

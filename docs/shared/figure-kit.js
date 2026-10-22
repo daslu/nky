@@ -157,7 +157,7 @@ const Fig = (function(){
        rendered from the value, so it cannot fall out of step with it */
     toggle: (c, st) => `<button class="pill" data-fig-toggle="${esc(c.key)}"
         aria-pressed="${!!getPath(st, c.key)}">${esc(getPath(st, c.key) ? c.on : c.off)}</button>
-      ${c.hint ? `<span style="color:var(--ink3)" data-fig-hint="${esc(c.key)}">${
+      ${c.hint ? `<span style="color:var(--ink3-text)" data-fig-hint="${esc(c.key)}">${
         esc(getPath(st, c.key) ? c.hint.on : c.hint.off)}</span>` : ""}`,
 
     /* A slider, with its value beside it when there is one to show. The label
@@ -177,7 +177,7 @@ const Fig = (function(){
 
     /* a button that does not hold state — reveals an answer, replays a motion */
     action: (c, st) => `<button class="pill" data-fig-act="${esc(c.key)}">${esc(c.n)}</button>
-      ${c.note ? `<span style="color:var(--ink3)" data-fig-note="${esc(c.key)}">${esc(c.note)}</span>` : ""}`,
+      ${c.note ? `<span style="color:var(--ink3-text)" data-fig-note="${esc(c.key)}">${esc(c.note)}</span>` : ""}`,
 
     /* Author-written words in a control row — a question the buttons answer,
        say. Its `html` is NOT escaped, because it is written here rather than

@@ -1,5 +1,7 @@
 ---
 title: "Two · how loose the link is"
+pagetitle: "How loose the link is · Pain is not a damage report"
+body-classes: stop-page
 description: "What a scan of a pain-free back actually shows, and what a coloured light does to a fixed physical stimulus."
 ---
 

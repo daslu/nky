@@ -1,5 +1,7 @@
 ---
 title: "Two · the second system"
+pagetitle: "The second system · Touch is not one sense"
+body-classes: stop-page
 description: "How the slow road was found, the patient who proved it carries an experience, and the two things it is tuned to."
 ---
 

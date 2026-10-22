@@ -1,5 +1,7 @@
 ---
 title: "One · the territory"
+pagetitle: "The territory · Touch is not one sense"
+body-classes: stop-page
 description: "Two roads, the receptors they arrive on, and how finely skin resolves what it feels."
 ---
 

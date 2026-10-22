@@ -1,5 +1,10 @@
 /*-- scss:defaults --*/
 
+// Cosmo's compiled CSS otherwise opens with an @import of Source Sans Pro
+// from Google Fonts — a face this site never uses, and a request that sends
+// each visitor's IP to Google. The site's own faces are self-hosted.
+$web-font-path: false;
+
 // Bootstrap variables first, so Quarto's own chrome — sidebar, page TOC,
 // next/previous links, search — comes out in the same warm vocabulary as the
 // page. Setting only a stylesheet leaves the navigation looking like Bootstrap
@@ -26,7 +31,9 @@ $headings-font-family: "Fraunces", "Newsreader", Georgia, serif;
 $headings-font-weight: 600;
 $headings-color: $ink;
 
-$link-color: $clay;
+// Links are text, so they take the darker clay (5.07:1 on paper; $clay
+// itself is 3.89, under WCAG AA). See warm.css --clay-text.
+$link-color: #A5512F;
 $link-hover-color: darken($clay, 10%);
 $border-color: $rule;
 
@@ -34,8 +41,8 @@ $navbar-bg: $paper;
 $navbar-fg: $ink2;
 $sidebar-bg: $paper;
 $sidebar-fg: $ink2;
-$sidebar-hl: $clay;
-$toc-color: $ink3;
+$sidebar-hl: #A5512F;
+$toc-color: #776858;
 $toc-active-border: $clay;
 
 $grid-body-width: 1080px;

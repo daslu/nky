@@ -1,5 +1,7 @@
 ---
 title: "Four · being honest about it"
+pagetitle: "Being honest about it · Pain is not a damage report"
+body-classes: stop-page
 description: "What teaching people about pain measurably does, and how much weight each claim on this page can carry."
 ---
 

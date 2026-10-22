@@ -1,5 +1,7 @@
 ---
 title: "What we carry back"
+pagetitle: "What we carry back · Breathing is not a switch"
+body-classes: stop-page
 description: "What the reading suggested, and every source in one place."
 nocite: |
   @*

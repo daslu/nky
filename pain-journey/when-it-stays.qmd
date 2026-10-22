@@ -1,5 +1,7 @@
 ---
 title: "Three · when pain stays"
+pagetitle: "When pain stays · Pain is not a damage report"
+body-classes: stop-page
 description: "How a nervous system turns its own gain up, and how much of a treatment is the room rather than the technique."
 ---
 

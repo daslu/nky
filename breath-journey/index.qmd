@@ -1,6 +1,6 @@
 ---
 title: "Breathing is not a switch"
-description: "A reading journey for hands-on practitioners: what slow breathing actually does, why one rate works better than the others, and how much of the rest is hope."
+description: "What slow breathing actually does, why one rate works better than the others, and how much of the rest is hope. A reading journey."
 toc: false
 ---
 

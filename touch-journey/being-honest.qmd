@@ -1,5 +1,7 @@
 ---
 title: "Four · being honest about it"
+pagetitle: "Being honest about it · Touch is not one sense"
+body-classes: stop-page
 description: "Four things the field has had to take back, and why the fibre is not the feeling."
 ---
 

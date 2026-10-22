@@ -1,5 +1,7 @@
 ---
 title: "One · what breathing is doing"
+pagetitle: "What breathing is doing · Breathing is not a switch"
+body-classes: stop-page
 description: "What an ordinary rate looks like, why the lungs are not the interesting part, and what goes wrong when you breathe more than the body asked for."
 ---
 

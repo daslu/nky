@@ -1,5 +1,7 @@
 ---
 title: "Three · being honest about it"
+pagetitle: "Being honest about it · Breathing is not a switch"
+body-classes: stop-page
 description: "What breathwork does in randomised trials, and how much weight each claim on this page can carry."
 ---
 

@@ -32,6 +32,9 @@ project:
     # site. The stylesheets and the citation style reach docs/ through
     # Quarto's own theme handling and do not belong here.
     - shared/figure-kit.js
+    # The self-hosted fonts. warm.css reaches them by url(), which Quarto's
+    # resource scan does not see — same trap as the photographs below.
+    - shared/fonts/**
     # The band photographs. warm.css reaches these with a url(), which
     # Quarto's resource scan does not see — unlisted, they would never
     # reach docs/, and anything already there would be deleted.
@@ -42,6 +45,12 @@ project:
 
 website:
   title: "Notknowing Garden"
+  # Link previews (Open Graph and Twitter cards) need absolute URLs, which
+  # need site-url. The card is shared/img/share.jpg (1200x630).
+  site-url: https://daslu.github.io/nky
+  image: /shared/img/share.jpg
+  open-graph: true
+  twitter-card: true
   description: "Spaces for wellness and movement, online and in person, made by a tantra therapist and a yoga teacher."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
@@ -61,7 +70,7 @@ website:
     # The mark alone, cropped to its own width (shared/img/mark.svg, from
     # logos/svg/logo.svg). The full lockup is on the front door.
     logo: shared/img/mark.svg
-    logo-alt: ""
+    logo-alt: "Notknowing Garden home"
     left:
       - text: "gatherings"
         href: community/index.qmd
@@ -76,7 +85,7 @@ website:
   ## the close, and it is the one place the two of them are named on every
   ## page rather than only on /about/.
   page-footer:
-    left: "Notknowing Garden"
+    left: '<a href="/index.html" class="footer-brand"><img src="/shared/img/mark.svg" alt="" class="footer-mark"> Notknowing Garden</a>'
     right:
       - text: "FG"
         href: about/fg.qmd
@@ -151,18 +160,22 @@ format:
     css: shared/warm.css
     csl: shared/ama.csl
 
-    # Two things every page needs. The robots tag keeps the site out of search
-    # results while it is being drafted (2026-09-07) — robots.txt cannot do it
-    # here, being read only from the origin root, daslu.github.io/robots.txt,
-    # which belongs to another repository. Remove the tag when the site is
-    # ready to be found. The fonts sat in each story's _metadata.yml until
-    # there were pages outside the stories; one copy now.
+    # The robots tag keeps the site out of search results while it is being
+    # drafted (2026-09-07) — robots.txt cannot do it here, being read only
+    # from the origin root, daslu.github.io/robots.txt, which belongs to
+    # another repository. Remove the tag when the site is ready to be found.
+    # The fonts used to be linked here from Google; they are self-hosted now
+    # (warm.css). A leading / is the project root: Quarto rewrites it to a
+    # relative path on every page, in this header text and in the footer.
     include-in-header:
       - text: |
           <meta name="robots" content="noindex">
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+          <link rel="icon" type="image/svg+xml" href="/shared/img/favicon.svg">
+          <link rel="apple-touch-icon" href="/shared/img/apple-touch-icon.png">
+    # A skip link, for keyboard users: the first Tab stop on every page.
+    include-before-body:
+      - text: |
+          <a class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to content</a>
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.

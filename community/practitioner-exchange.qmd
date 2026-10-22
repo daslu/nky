@@ -8,19 +8,20 @@ toc: false
 # Practitioner Exchange
 
 ::: {.stand}
-A facilitation retreat. Knowing your practice well is one thing. Holding a room
+A facilitation retreat. Knowing your practice well is one thing. Leading a group
 is another.
 :::
 ::::
 
 This three-to-four-day retreat gives around twelve wellness, bodymind and
-movement practitioners a place to practise group facilitation with real peers.
-Each participant leads a session in their own modality and then receives
+movement practitioners a place to practise group facilitation with other
+practitioners.
+Each participant leads a session in their own practice and then receives
 structured, compassionate feedback. Along the way, you experience other
-traditions from the inside and compare notes on what it takes to hold a group
+traditions from the inside and compare notes on what it takes to lead a group
 well.
 
-We take care of the frame: daily opening and closing practices, a short check-in
+We look after the structure: daily opening and closing practices, a short check-in
 with you before you lead, and a safe container for reflection. That leaves you
 free to try new things, take risks and grow as a facilitator.
 
@@ -42,7 +43,7 @@ Tentatively May 2027. Three to four days.
 ::: {.ab}
 [Where]{.k}
 
-Germany. The venue will be announced.
+Germany.
 :::
 
 ::: {.ab}
@@ -60,7 +61,7 @@ Around twelve participants.
 ::::
 
 ::: {.empty}
-Dates, venue and price are not fixed yet.
+Venue, exact dates and price to follow.
 :::
 
 [← all gatherings](index.qmd)

@@ -1,5 +1,7 @@
 ---
 title: "Three · what touch does"
+pagetitle: "What touch does · Touch is not one sense"
+body-classes: stop-page
 description: "Pain, the map of who may touch you where, and an honest sorting of how sure anyone can be."
 ---
 
