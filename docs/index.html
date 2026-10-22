@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa2e5b42ef20a77e627d64d8b230e8ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ecb55f9fdcb60dd23b91768def5aaf5e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,23 +171,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="section" class="level1 hero front">
 <h1><picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture></h1>
 <div class="stand">
-<p>We are <a href="./about/fg.html">FG</a> and <a href="./about/ds.html">DS</a>. We create spaces, online and in person, where people can move, breathe, connect and learn together. They are for practitioners, and for anyone who is curious about their body.</p>
+<p>We are <a href="./about/fg.html">FG</a> and <a href="./about/ds.html">DS</a>. We bring yoga and tantra together, in spaces online and in person where people can move, breathe, connect and learn. They are for practitioners, and for anyone who is curious about their body.</p>
 </div>
+<p><a href="./community/index.html">Coming up first: two retreats in 2027 →</a></p>
 </section>
 <div class="band band-front">
 
 </div>
-<section id="what-you-will-find-here" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-will-find-here">What you will find here</h2>
+<section id="what-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-do">What we do</h2>
 <div class="ways">
 <section id="gatherings" class="level3 way">
 <h3 class="anchored" data-anchor-id="gatherings">Gatherings</h3>
-<p>The first gatherings coming up are two retreats in 2027: <a href="./community/practitioners-circle.html">Practitioners’ Circle</a>, for practitioners who want to lead groups, and <a href="./community/moving-together.html">Moving Together</a>, a movement retreat for anyone.</p>
+<p><a href="./community/practitioners-circle.html">Practitioners’ Circle</a> is for practitioners who want to lead groups. <a href="./community/moving-together.html">Moving Together</a> is a movement retreat for anyone.</p>
 <p><a href="./community/index.html">See what is coming up →</a></p>
 </section>
 <section id="writing" class="level3 way">
 <h3 class="anchored" data-anchor-id="writing">Writing</h3>
-<p>We write about the body, movement and practice. The first posts are coming soon.</p>
+<p>Where there is research, we look at what is known and what is not. The first posts are coming soon.</p>
 <p><a href="./writing/index.html">See the upcoming posts →</a></p>
 </section>
 <section id="the-podcast" class="level3 way">
@@ -627,6 +628,23 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </footer>
 <script>document.body.prepend(document.querySelector('.skip-link'))</script>
+<script>
+document.querySelectorAll('.navbar .navbar-nav .nav-link').forEach(function (a) {
+  var dir = new URL(a.href).pathname.replace(/[^\/]*$/, '');
+  if (location.pathname.indexOf(dir) === 0) a.classList.add('active');
+});
+// link-external-newwindow opens outside links in a new tab; say so
+// to screen readers (accessibility review, round 2). Quarto sets the
+// targets on DOMContentLoaded, so this waits for load.
+window.addEventListener('load', function () {
+  document.querySelectorAll('a[target="_blank"]').forEach(function (a) {
+    var s = document.createElement('span');
+    s.className = 'visually-hidden';
+    s.textContent = ' (opens in a new tab)';
+    a.appendChild(s);
+  });
+});
+</script>
 
 
 

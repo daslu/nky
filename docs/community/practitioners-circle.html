@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fa2e5b42ef20a77e627d64d8b230e8ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ecb55f9fdcb60dd23b91768def5aaf5e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,41 +179,47 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>The retreat will give wellness, bodymind and movement practitioners a place to practise group facilitation with each other. You will each lead a session in your own practice and then get feedback from the group, with a simple format for giving it. Along the way, you will experience other traditions from the inside and compare notes on what it takes to lead a group well.</p>
 <p>We will look after the structure: daily opening and closing practices, a short check-in with you before you lead, and time to reflect together. That will leave you free to try new things as a facilitator, at the edge you choose.</p>
+<p>We will share the group agreements before you book. Throughout, you are free to sit out any session, or to watch.</p>
 <div class="about">
 <div class="ab">
-<p><span class="k">Who it is for</span></p>
+<p><span class="k" role="heading" aria-level="2">Who it is for</span></p>
 <p>Teachers, therapists and other practitioners. Adults (18+).</p>
 </div>
 <div class="ab">
-<p><span class="k">When</span></p>
+<p><span class="k" role="heading" aria-level="2">When</span></p>
 <p>Tentatively May 2027. Three days.</p>
 </div>
 <div class="ab">
-<p><span class="k">Where</span></p>
+<p><span class="k" role="heading" aria-level="2">Where</span></p>
 <p>Germany.</p>
 </div>
 <div class="ab">
-<p><span class="k">Touch</span></p>
+<p><span class="k" role="heading" aria-level="2">Touch</span></p>
 <p>Some sessions may involve touch between participants, such as a hand on the back or leaning into each other’s weight. This includes sessions that other participants lead. Touch is always optional: you can say no, or change your mind, at any time without giving a reason, and there is always a way to take part without it. Nothing in the retreat is sexual, and everyone stays clothed.</p>
 </div>
 <div class="ab">
-<p><span class="k">Included</span></p>
+<p><span class="k" role="heading" aria-level="2">Health</span></p>
+<p>This retreat is not therapy or medical treatment. If you have a physical or mental health condition, please tell us before booking, so we can talk it through together.</p>
+</div>
+<div class="ab">
+<p><span class="k" role="heading" aria-level="2">Access</span></p>
+<p>If you have access needs, tell us what they are, and we will tell you honestly what the venue and programme can offer.</p>
+</div>
+<div class="ab">
+<p><span class="k" role="heading" aria-level="2">Included</span></p>
 <p>Accommodation and food.</p>
 </div>
 <div class="ab">
-<p><span class="k">Language</span></p>
+<p><span class="k" role="heading" aria-level="2">Language</span></p>
 <p>English. Everyday English is enough.</p>
 </div>
 <div class="ab">
-<p><span class="k">Group</span></p>
+<p><span class="k" role="heading" aria-level="2">Group</span></p>
 <p>Around twelve participants.</p>
 </div>
 </div>
 <div class="empty">
 <p>Venue, exact dates and price to follow.</p>
-</div>
-<div class="empty">
-<p>This retreat is not therapy or medical treatment. If you have a physical or mental health condition, please tell us before booking, so we can talk it through together.</p>
 </div>
 <div class="ask">
 <p><strong>Questions are welcome</strong>, about the programme, the place, cost, access or whether this is right for you. Write to us at <a href="mailto:hello@example.org">hello@example.org</a>, also if you would like to hear when the dates and price are set.</p>
@@ -649,6 +655,23 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </footer>
 <script>document.body.prepend(document.querySelector('.skip-link'))</script>
+<script>
+document.querySelectorAll('.navbar .navbar-nav .nav-link').forEach(function (a) {
+  var dir = new URL(a.href).pathname.replace(/[^\/]*$/, '');
+  if (location.pathname.indexOf(dir) === 0) a.classList.add('active');
+});
+// link-external-newwindow opens outside links in a new tab; say so
+// to screen readers (accessibility review, round 2). Quarto sets the
+// targets on DOMContentLoaded, so this waits for load.
+window.addEventListener('load', function () {
+  document.querySelectorAll('a[target="_blank"]').forEach(function (a) {
+    var s = document.createElement('span');
+    s.className = 'visually-hidden';
+    s.textContent = ' (opens in a new tab)';
+    a.appendChild(s);
+  });
+});
+</script>
 
 
 

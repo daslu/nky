@@ -516,6 +516,19 @@ html{ overflow-x:clip }
 
 @media (max-width:700px){
   .band{ margin-top:22px; height:clamp(132px,32vw,190px) }
+  /* 800px cuts (resized from the files above, q80) for phones: ~41 KB a band
+     against ~94 KB. Bands are soft by design, so 2x phones lose nothing seen
+     (accessibility review, round 2). Regenerate after changing a band:
+     convert X.jpg -resize 800x -quality 80 X-800.jpg */
+  .band-front    { background-image:url(img/front-800.jpg) }
+  .band-writing  { background-image:url(img/writing-800.jpg) }
+  .band-podcast  { background-image:url(img/podcast-800.jpg) }
+  .band-community{ background-image:url(img/community-800.jpg) }
+  .band-about    { background-image:url(img/about-800.jpg) }
+  .band-fg       { background-image:url(img/fg-800.jpg) }
+  .band-ds       { background-image:url(img/ds-800.jpg) }
+  .band-practitioner{ background-image:url(img/practitioner-800.jpg) }
+  .band-moving   { background-image:url(img/moving-800.jpg) }
 }
 /* On a wide screen, 24px past the viewport on each side, clipped by
    html{overflow-x:clip}. 50% - 50vw is exact only when the content column

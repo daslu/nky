@@ -13,26 +13,28 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-We are [FG](about/fg.qmd) and [DS](about/ds.qmd). We create spaces, online and in person, where people can move, breathe,
-connect and learn together. They are for practitioners, and for anyone who is
-curious about their body.
+We are [FG](about/fg.qmd) and [DS](about/ds.qmd). We bring yoga and tantra
+together, in spaces online and in person where people can move, breathe, connect
+and learn. They are for practitioners, and for anyone who is curious about their
+body.
 :::
+
+[Coming up first: two retreats in 2027 →](community/index.qmd)
 ::::
 
 ::: {.band .band-front}
 :::
 
-## What you will find here
+## What we do
 
 ::: {.ways}
 
 ::: {.way}
 ### Gatherings
 
-The first gatherings coming up are two retreats in 2027: [Practitioners'
-Circle](community/practitioners-circle.qmd), for practitioners who want to
-lead groups, and [Moving Together](community/moving-together.qmd), a movement
-retreat for anyone.
+[Practitioners' Circle](community/practitioners-circle.qmd) is for
+practitioners who want to lead groups. [Moving
+Together](community/moving-together.qmd) is a movement retreat for anyone.
 
 [See what is coming up →](community/index.qmd)
 :::
@@ -40,8 +42,8 @@ retreat for anyone.
 ::: {.way}
 ### Writing
 
-We write about the body, movement and practice. The first posts are coming
-soon.
+Where there is research, we look at what is known and what is not. The first
+posts are coming soon.
 
 [See the upcoming posts →](writing/index.qmd)
 :::

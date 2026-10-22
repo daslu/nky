@@ -20,3 +20,5 @@ Her work is personal development and bodywork. It does not diagnose or treat
 illness, and it is not a replacement for medical or psychological care.
 
 [FG's own website →]({{< var fg.site >}})
+
+[See what is coming up →](../community/index.qmd)

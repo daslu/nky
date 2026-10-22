@@ -31,3 +31,8 @@ always agree.
 :::
 
 :::
+
+::: {.ask}
+To hear when the first episode is out, write to us at
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
+:::

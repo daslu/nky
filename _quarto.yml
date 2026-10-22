@@ -186,9 +186,29 @@ format:
       - text: |
           <a class="visually-hidden-focusable skip-link" href="#quarto-document-content">Skip to content</a>
           <div class="draft-mark" aria-hidden="true"><span>Draft</span></div>
+    # Quarto marks a navbar item active only on that exact page; the script
+    # also marks it on the pages inside its folder (the retreats under
+    # Gatherings, FG and DS under About), and labels new-tab links.
     include-after-body:
       - text: |
           <script>document.body.prepend(document.querySelector('.skip-link'))</script>
+          <script>
+          document.querySelectorAll('.navbar .navbar-nav .nav-link').forEach(function (a) {
+            var dir = new URL(a.href).pathname.replace(/[^\/]*$/, '');
+            if (location.pathname.indexOf(dir) === 0) a.classList.add('active');
+          });
+          // link-external-newwindow opens outside links in a new tab; say so
+          // to screen readers (accessibility review, round 2). Quarto sets the
+          // targets on DOMContentLoaded, so this waits for load.
+          window.addEventListener('load', function () {
+            document.querySelectorAll('a[target="_blank"]').forEach(function (a) {
+              var s = document.createElement('span');
+              s.className = 'visually-hidden';
+              s.textContent = ' (opens in a new tab)';
+              a.appendChild(s);
+            });
+          });
+          </script>
     # The original page used a 1080px wrap with no persistent sidebar. Quarto's
     # default grid leaves the body column ~790px at 1400px, which shrinks every
     # wide-layout figure. This buys most of that width back.

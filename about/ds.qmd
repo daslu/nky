@@ -14,3 +14,5 @@ DS is a yoga teacher and community activist.
 
 ::: {.band .band-ds}
 :::
+
+[See what is coming up →](../community/index.qmd)

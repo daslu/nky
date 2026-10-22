@@ -35,3 +35,8 @@ minute. We look at what that changes, and what it does not.
 :::
 
 :::
+
+::: {.ask}
+To hear when the first posts are out, write to us at
+[{{< var contact.email >}}](mailto:{{< var contact.email >}}).
+:::

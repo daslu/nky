@@ -27,28 +27,31 @@ We will look after the structure: daily opening and closing practices, a short
 check-in with you before you lead, and time to reflect together. That will leave
 you free to try new things as a facilitator, at the edge you choose.
 
+We will share the group agreements before you book. Throughout, you are free to
+sit out any session, or to watch.
+
 :::: {.about}
 
 ::: {.ab}
-[Who it is for]{.k}
+[Who it is for]{.k role="heading" aria-level="2"}
 
 Teachers, therapists and other practitioners. Adults (18+).
 :::
 
 ::: {.ab}
-[When]{.k}
+[When]{.k role="heading" aria-level="2"}
 
 Tentatively May 2027. Three days.
 :::
 
 ::: {.ab}
-[Where]{.k}
+[Where]{.k role="heading" aria-level="2"}
 
 Germany.
 :::
 
 ::: {.ab}
-[Touch]{.k}
+[Touch]{.k role="heading" aria-level="2"}
 
 Some sessions may involve touch between participants, such as a hand on the
 back or leaning into each other's weight. This includes sessions that other
@@ -58,19 +61,34 @@ part without it. Nothing in the retreat is sexual, and everyone stays clothed.
 :::
 
 ::: {.ab}
-[Included]{.k}
+[Health]{.k role="heading" aria-level="2"}
+
+This retreat is not therapy or medical treatment. If you have a physical or
+mental health condition, please tell us before booking, so we can talk it
+through together.
+:::
+
+::: {.ab}
+[Access]{.k role="heading" aria-level="2"}
+
+If you have access needs, tell us what they are, and we will tell you honestly
+what the venue and programme can offer.
+:::
+
+::: {.ab}
+[Included]{.k role="heading" aria-level="2"}
 
 Accommodation and food.
 :::
 
 ::: {.ab}
-[Language]{.k}
+[Language]{.k role="heading" aria-level="2"}
 
 English. Everyday English is enough.
 :::
 
 ::: {.ab}
-[Group]{.k}
+[Group]{.k role="heading" aria-level="2"}
 
 Around twelve participants.
 :::
@@ -79,12 +97,6 @@ Around twelve participants.
 
 ::: {.empty}
 Venue, exact dates and price to follow.
-:::
-
-::: {.empty}
-This retreat is not therapy or medical treatment. If you have a physical or
-mental health condition, please tell us before booking, so we can talk it
-through together.
 :::
 
 ::: {.ask}

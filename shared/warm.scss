@@ -24,11 +24,16 @@ $dis:    #B0755F;
 $body-bg:    $paper;
 $body-color: $ink;
 $font-family-sans-serif: "Newsreader", Georgia, serif;
-$font-size-root: 19px;
+// 19px on the default 16px, written relative so a reader's own text-size
+// setting still applies (accessibility review, round 2). Sizes in warm.css
+// are mostly px and do not follow it; page zoom scales everything.
+$font-size-root: 118.75%;
 $line-height-base: 1.68;
 
 $headings-font-family: "Fraunces", "Newsreader", Georgia, serif;
-$headings-font-weight: 600;
+// 560, not 600: at 600 every heading outweighed the name (520) in the navbar
+// and lockup (graphic-designer review, round 2).
+$headings-font-weight: 560;
 $headings-color: $ink;
 
 // Links are text, so they take the darker clay (5.07:1 on paper; $clay

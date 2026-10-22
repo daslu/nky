@@ -65,7 +65,7 @@ div.csl-indent {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fa2e5b42ef20a77e627d64d8b230e8ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ecb55f9fdcb60dd23b91768def5aaf5e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -763,6 +763,23 @@ div.csl-indent {
   </div>
 </footer>
 <script>document.body.prepend(document.querySelector('.skip-link'))</script>
+<script>
+document.querySelectorAll('.navbar .navbar-nav .nav-link').forEach(function (a) {
+  var dir = new URL(a.href).pathname.replace(/[^\/]*$/, '');
+  if (location.pathname.indexOf(dir) === 0) a.classList.add('active');
+});
+// link-external-newwindow opens outside links in a new tab; say so
+// to screen readers (accessibility review, round 2). Quarto sets the
+// targets on DOMContentLoaded, so this waits for load.
+window.addEventListener('load', function () {
+  document.querySelectorAll('a[target="_blank"]').forEach(function (a) {
+    var s = document.createElement('span');
+    s.className = 'visually-hidden';
+    s.textContent = ' (opens in a new tab)';
+    a.appendChild(s);
+  });
+});
+</script>
 
 
 
