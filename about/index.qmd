@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Notknowing Garden is two practitioners, FG and DS, who lead retreats together that combine tantra and yoga."
+description: "Notknowing Garden is two practitioners, FG and DS, creating spaces together, online and in person, that combine tantra and yoga."
 toc: false
 ---
 
@@ -9,8 +9,8 @@ toc: false
 
 ::: {.stand}
 Notknowing Garden is a collaboration between two practitioners, FG and DS. We
-lead retreats together that combine tantra and yoga, and we write about what
-the research says about the body.
+create spaces together, online and in person, that combine tantra and yoga, and
+we write about what the research says about the body.
 :::
 ::::
 
@@ -45,13 +45,13 @@ Yoga teacher and community activist.
 ::: {.ways}
 
 ::: {.way}
-[Retreats]{.k}
+[Gatherings]{.k}
 
-Three-day retreats in Germany, held in English, with accommodation and food
-included. The first two are in 2027: one for practitioners who want to lead
-groups, and one movement retreat for anyone.
+Spaces to practise and learn together, online and in person. Coming up first,
+two retreats in 2027: one for practitioners who want to lead groups, and one
+movement retreat for anyone.
 
-[see the retreats →](../community/index.qmd)
+[see what is coming up →](../community/index.qmd)
 :::
 
 ::: {.way}

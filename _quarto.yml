@@ -51,7 +51,7 @@ website:
   image: /shared/img/share.jpg
   open-graph: true
   twitter-card: true
-  description: "Retreats that bring yoga and tantra together, led by a tantra practitioner and a yoga teacher. In Germany, in English."
+  description: "Spaces to move, connect and learn, online and in person, created by a tantra practitioner and a yoga teacher."
   page-navigation: true          # these are journeys; next/previous matters
   reader-mode: false
   # The comma from the old name, "not knowing, yet", set in Fraunces. Kept
@@ -72,7 +72,7 @@ website:
     logo: shared/img/mark.svg
     logo-alt: "Notknowing Garden home"
     left:
-      - text: "retreats"
+      - text: "gatherings"
         href: community/index.qmd
       - text: "writing"
         href: writing/index.qmd

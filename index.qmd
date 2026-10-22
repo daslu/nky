@@ -1,6 +1,6 @@
 ---
 title: "Notknowing Garden"
-description: "Retreats that bring yoga and tantra together, led by a tantra practitioner and a yoga teacher. In Germany, in English."
+description: "Spaces to move, connect and learn, online and in person, created by a tantra practitioner and a yoga teacher."
 # Without this, the preview card would be the first image on the page —
 # the lockup SVG, which most link previewers cannot show.
 image: shared/img/share.jpg
@@ -12,8 +12,8 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-Retreats that bring yoga and tantra together, for practitioners and for anyone
-curious about their body. In Germany, held in English.
+We create spaces, online and in person, to move, breathe, connect and learn
+together. For practitioners, and for anyone curious about their body.
 :::
 ::::
 
@@ -21,21 +21,22 @@ curious about their body. In Germany, held in English.
 :::
 
 Notknowing Garden is [FG](about/fg.qmd), a tantra practitioner and facilitator,
-and [DS](about/ds.qmd), a yoga teacher and community activist. We lead our
-retreats together, combining our two practices. The first two are in 2027.
+and [DS](about/ds.qmd), a yoga teacher and community activist. We create
+these spaces together, bringing yoga and tantra into one practice.
 
 ::: {.ways}
 [What you will find here]{.eyebrow}
 
 ::: {.way}
-[Retreats]{.k}
+[Gatherings]{.k}
 
-Two three-day retreats in Germany in 2027, held in English, with accommodation
-and food included: [Practitioner Exchange](community/practitioner-exchange.qmd),
-for practitioners who want to lead groups, and [Moving
-Together](community/moving-together.qmd), a movement retreat for anyone.
+Spaces to practise and learn together, online and in person. Coming up first,
+two retreats in 2027: [Practitioner
+Exchange](community/practitioner-exchange.qmd), for practitioners who want to
+lead groups, and [Moving Together](community/moving-together.qmd), a movement
+retreat for anyone.
 
-[see the retreats →](community/index.qmd)
+[see what is coming up →](community/index.qmd)
 :::
 
 ::: {.way}

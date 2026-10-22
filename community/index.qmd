@@ -1,15 +1,15 @@
 ---
-title: "Retreats"
-description: "Two three-day retreats in Germany in 2027, held in English: Practitioner Exchange and Moving Together."
+title: "Gatherings"
+description: "Gatherings led by FG and DS, online and in person. Coming up first: two retreats in 2027, Practitioner Exchange and Moving Together."
 toc: false
 ---
 
 :::: {.hero}
-# Retreats
+# Gatherings
 
 ::: {.stand}
-Three-day retreats in Germany, held in English, led by FG and DS.
-Accommodation and food are included.
+Spaces to practise and learn together, online and in person, led by FG and
+DS.
 :::
 ::::
 

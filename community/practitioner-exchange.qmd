@@ -103,4 +103,4 @@ whether this is right for you: write to us at
 hear from you, whatever you want to ask.
 :::
 
-[← all retreats](index.qmd)
+[← all gatherings](index.qmd)
