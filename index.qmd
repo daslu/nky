@@ -12,7 +12,7 @@ toc: false
 # <picture><source media="(max-width: 600px)" srcset="shared/img/lockup-stacked.svg"><img class="lockup" src="shared/img/lockup-horizontal.svg" alt="Notknowing Garden — bodymind, tantra, and movement"></picture>
 
 ::: {.stand}
-We create spaces, online and in person, where people can move, breathe,
+We are [FG](about/fg.qmd) and [DS](about/ds.qmd). We create spaces, online and in person, where people can move, breathe,
 connect and learn together. They are for practitioners, and for anyone who is
 curious about their body.
 :::
