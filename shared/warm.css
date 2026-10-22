@@ -478,6 +478,8 @@ html{ overflow-x:clip }
 .band-about    { background-image:url(img/about.jpg) }
 .band-fg       { background-image:url(img/fg.jpg) }
 .band-ds       { background-image:url(img/ds.jpg) }
+.band-practitioner{ background-image:url(img/practitioner.jpg) }
+.band-moving   { background-image:url(img/moving.jpg) }
 
 @media (max-width:700px){
   .band{ margin-top:22px; height:clamp(132px,32vw,190px) }

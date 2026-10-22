@@ -261,11 +261,15 @@ title is a quoted record and is never reworded.
 
 ## The photographs
 
-`shared/img/` holds the site's only images, cropped and graded from two walks:
-a eucalyptus grove on 8 October 2026 (`images/leaves/photo_2026-10-08_*`) and a
-northern spruce-and-birch wood on 22 October (`photo_2026-10-22_*`). Seven are
-bands, one per section page; three are small photographs beside the journeys on
-`/writing/`; the rest are the favicon and the share card.
+`shared/img/` holds the site's only images, cropped and graded from one walk
+in a northern spruce-and-birch wood on 22 October 2026
+(`images/leaves/photo_2026-10-22_*`), which is the brand's place. Nine are
+bands, one per section page and one per retreat page; three are small
+photographs beside the journeys on `/writing/`; the rest are the favicon and
+the share card. The 8 October eucalyptus grove (`photo_2026-10-08_*`) is
+retired from the site as of 2026-10-22: its last three bands (writing,
+podcast, about) were re-cut from the wood so the site reads as one place. The
+grove frames stay in `images/` untouched.
 
 | file | source frame | page | why this one |
 |---|---|---|---|
@@ -273,9 +277,11 @@ bands, one per section page; three are small photographs beside the journeys on
 | `community.jpg` | 10-22 `15-09-04` | `/community/` (Gatherings) | A sunlit clearing among pines, open ground and a low stone: a place people could meet. Replaced a canopy. |
 | `fg.jpg` | 10-22 `15-08-32` | `/about/fg/` | A soft mound of moss close up, the wood blurred behind it: closeness and touch, without a person in it. Half the frame is quiet. |
 | `ds.jpg` | 10-22 `15-08-33`, left 160px cut | `/about/ds/` | Spruces standing rooted in a moss floor, many trees behind them: upright, and among others. The cut removes a jacket at the left edge, so this one is 1120 wide. |
-| `writing.jpg` | 10-08 | `/writing/` | Unchanged. |
-| `podcast.jpg` | 10-08 | `/podcast/` | Unchanged — two canopies leaning in across a sky; nothing new said it better. |
-| `about.jpg` | 10-08 | `/about/` | Unchanged. The 10-22 frame of two trunks side by side was tried and was too busy. |
+| `writing.jpg` | 10-22 `15-08-31`, y 60 | `/writing/` | Low in the grass, one seed stem sharp, the wood behind it all bokeh: close attention to one thing, the way the journeys read. The quietest band on the site. |
+| `podcast.jpg` | 10-22 `15-08-37`, y 160 | `/podcast/` | Spruce crowns from below, two masses leaning in across a gap of sky: conversation, and the same idea the grove band carried. Distinct from `thumb-breath` (`15-08-39`), which looks straight up. |
+| `about.jpg` | 10-22 `15-08-46`, y 90 | `/about/` | Near moss soft, beyond it pairs of birch trunks standing close on one mound: two of them, together, in the same wood as their own pages. |
+| `practitioner.jpg` | 10-22 `15-08-35`, y 300, blur 9, q72 | `/community/practitioner-exchange/` | A stand of spruces on one shared moss floor: peers, each upright, on common ground. Busy, so it takes a stronger artificial depth of field. |
+| `moving.jpg` | 10-22 `15-08-57`, y 180, blur 7 | `/community/moving-together/` | Light and open water seen between many kinds of trunk: room to move, a mixed group. The one airy band. |
 | `thumb-touch.jpg` | 10-22 `15-08-55` | `/writing/`, beside the touch journey | Frost on fine grass: filaments, like hair, which is what the second touch system lives in. |
 | `thumb-pain.jpg` | 10-22 `15-08-50` | `/writing/`, beside the pain journey | Spotted aspen leaves floating on a puddle with the sky in it: what lies on a surface, and what shows through it. |
 | `thumb-breath.jpg` | 10-22 `15-08-39` | `/writing/`, beside the breath journey | Looking straight up through spruce crowns to open sky. |
@@ -283,11 +289,16 @@ bands, one per section page; three are small photographs beside the journeys on
 
 The 22 October frames that were looked at and left alone: the top-down moss,
 leaf and gravel frames (`15-08-29`, `-30`, `-40`, `-48`, `-53`, `-54`, `-56`)
-are flat all-over texture; the sunlit birch and hazel frames (`15-08-57` to
-`15-09-03`) are bright, busy and carry a lens flare; the mossy boulders and
-paths (`15-08-34`, `-35`, `-41` to `-44`) are sharp everywhere with no quiet
-area. The near/far moss frames not used (`15-08-31`, `-45 (2)`, `-46`, `-47`)
-are the first place to look for another band.
+are flat all-over texture; the sunlit birch and hazel frames (`15-08-59` to
+`15-09-03`) are bright, busy and carry a lens flare (`15-08-57`, the one
+without, is now Moving Together); the mossy boulders and paths (`15-08-34`,
+`-41` to `-43`) are sharp everywhere with no quiet area. `15-08-35` has the
+same fault and was used anyway for Practitioner Exchange, with a stronger
+blur (9 rather than 6) outside the sharp strip; it is the busiest band on the
+site and the first to replace if a better peers image turns up. Of the near/far moss frames, `15-08-45 (2)` and `-47` stay unused: both are
+near-duplicates of the front door's `15-08-45`. `15-09-05` is the same
+clearing and stone as Gatherings' `15-09-04`. `15-08-44` is the same spot as
+`15-08-46`.
 
 **The photographs beside the journeys are not inside them.** They sit on
 `/writing/`, which is a section page, as CSS backgrounds on an empty
@@ -331,7 +342,12 @@ so they take more: saturation 52 rather than 78, hue 96 (greens turned a few
 degrees toward olive), `-brightness-contrast -6x-6`, and 10–12% gold colorize.
 Measured against the older bands they then land in the same range — mean HSL
 saturation 0.13–0.17 against 0.10–0.15, mean lightness 0.42–0.50 against
-0.45–0.53. They are cut at the source's native width (1280, or 1120 for
+0.45–0.53. The five bands cut on the afternoon of 2026-10-22 (writing,
+podcast, about and the two retreats) are greyer frames — bokeh, sky, spruce
+bark — so they take saturation 56–70 instead of 52 to reach the family, and
+podcast's dark crowns take `-brightness-contrast 3x-10` and 14% gold. They
+measure saturation 0.06 (podcast: sky and silhouette, as the grove podcast
+band was 0.10) and 0.10–0.13 otherwise, lightness 0.39–0.53. They are cut at the source's native width (1280, or 1120 for
 `ds.jpg`) rather than resized to 1600 — the source is 1280 wide, and an
 upscale in the file only costs bytes. The browser scales either way. The
 thumbnails are 480x360 crops with the same grade and no artificial depth of
