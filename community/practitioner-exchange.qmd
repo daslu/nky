@@ -13,31 +13,37 @@ is another.
 :::
 ::::
 
-This three-to-four-day retreat gives around twelve wellness, bodymind and
+This three-day retreat gives around twelve wellness, bodymind and
 movement practitioners a place to practise group facilitation with other
 practitioners.
-Each participant leads a session in their own practice and then receives
-structured, compassionate feedback. Along the way, you experience other
+Each participant leads a session in their own practice and then gets feedback
+from the group, with a simple structure for giving it. Along the way, you experience other
 traditions from the inside and compare notes on what it takes to lead a group
 well.
 
-We look after the structure: daily opening and closing practices, a short check-in
-with you before you lead, and a safe container for reflection. That leaves you
-free to try new things, take risks and grow as a facilitator.
+We look after the structure: daily opening and closing practices, a short
+check-in with you before you lead, and time to reflect together. That leaves you
+free to try new things as a facilitator, at the edge you choose.
 
 :::: {.about}
+
+::: {.ab}
+[Led by]{.k}
+
+[FG](../about/fg.qmd) and [DS](../about/ds.qmd), together.
+:::
 
 ::: {.ab}
 [Who it is for]{.k}
 
 Teachers, therapists and practitioners who want to lead groups with more
-confidence, presence and care.
+confidence, presence and care. Adults (18+).
 :::
 
 ::: {.ab}
 [When]{.k}
 
-Tentatively May 2027. Three to four days.
+Tentatively May 2027. Three days.
 :::
 
 ::: {.ab}
@@ -57,9 +63,15 @@ part without it. Nothing in the retreat is sexual, and everyone stays clothed.
 :::
 
 ::: {.ab}
+[Included]{.k}
+
+Accommodation and food.
+:::
+
+::: {.ab}
 [Language]{.k}
 
-English.
+English. Everyday English is enough.
 :::
 
 ::: {.ab}
